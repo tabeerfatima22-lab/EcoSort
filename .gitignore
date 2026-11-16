@@ -1,0 +1,5 @@
+node_modules
+dist
+testdata
+public/ort
+.DS_Store

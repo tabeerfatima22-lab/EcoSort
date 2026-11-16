@@ -1,0 +1,584 @@
+{
+  "run": "trashbox_heldout_strict",
+  "date": "2026-11-16T14:25:22.505Z",
+  "mode": "strict",
+  "settings": {
+    "minBinProbability": 0.95,
+    "requireViewAgreement": true,
+    "unsupportedObjectVeto": 0.5,
+    "objectConflictVeto": 0.5,
+    "objectNameMin": 0.35
+  },
+  "simulated_brightness_factor": 1,
+  "waste_model": "smart_waste_mobilenetv2 1.3.1",
+  "object_model": "mobilenetv2-12 (ONNX Model Zoo, ImageNet-1k)",
+  "runtime": "onnxruntime-web (WebAssembly, 1 thread) on Node v22.23.4",
+  "images": {
+    "listed": 700,
+    "analysed": 700,
+    "unreadable": 0,
+    "in_scope": 381,
+    "out_of_scope": 217,
+    "depends_on_local_rules": 102
+  },
+  "without_safety_checks": {
+    "note": "Always answering with the most likely class (no thresholds). In-scope pictures only.",
+    "six_class_accuracy": 0.7611548556430446,
+    "bin_accuracy": 0.8608923884514436
+  },
+  "with_safety_checks": {
+    "answered_rate": 0.49606299212598426,
+    "accuracy_when_answered": 0.9682539682539683,
+    "wrong_bin_rate_of_all_items": 0.015748031496062992,
+    "uncertain_rate": 0.5039370078740157,
+    "mean_confidence_correct": 0.9926205088083457,
+    "mean_confidence_wrong": 0.9749341123388149
+  },
+  "out_of_scope": {
+    "note": "Items the four bins do not cover. The correct behaviour is 'Uncertain'.",
+    "correctly_uncertain": 0.8525345622119815,
+    "sent_to_a_recycling_bin": 0.0967741935483871
+  },
+  "per_bin": {
+    "general": {
+      "items": 19,
+      "recommended": 15,
+      "correct": 3,
+      "precision": 0.2,
+      "recall": 0.15789473684210525
+    },
+    "plastic": {
+      "items": 43,
+      "recommended": 26,
+      "correct": 18,
+      "precision": 0.6923076923076923,
+      "recall": 0.4186046511627907
+    },
+    "paper": {
+      "items": 156,
+      "recommended": 97,
+      "correct": 96,
+      "precision": 0.9896907216494846,
+      "recall": 0.6153846153846154
+    },
+    "other": {
+      "items": 163,
+      "recommended": 83,
+      "correct": 66,
+      "precision": 0.7951807228915663,
+      "recall": 0.4049079754601227
+    }
+  },
+  "by_folder": {
+    "TrashBox_train_dataset_subfolders/cardboard": {
+      "truth": "paper",
+      "n": 103,
+      "general": 0,
+      "plastic": 0,
+      "paper": 71,
+      "other": 0,
+      "uncertain": 32
+    },
+    "TrashBox_train_dataset_subfolders/glass": {
+      "truth": "other",
+      "n": 86,
+      "general": 0,
+      "plastic": 2,
+      "paper": 0,
+      "other": 37,
+      "uncertain": 47
+    },
+    "e-waste/electrical cables": {
+      "truth": "out-of-scope",
+      "n": 20,
+      "general": 3,
+      "plastic": 0,
+      "paper": 0,
+      "other": 1,
+      "uncertain": 16
+    },
+    "e-waste/electronic chips": {
+      "truth": "out-of-scope",
+      "n": 30,
+      "general": 0,
+      "plastic": 1,
+      "paper": 1,
+      "other": 1,
+      "uncertain": 27
+    },
+    "e-waste/laptops": {
+      "truth": "out-of-scope",
+      "n": 16,
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 1,
+      "uncertain": 15
+    },
+    "e-waste/small appliances": {
+      "truth": "out-of-scope",
+      "n": 36,
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 36
+    },
+    "e-waste/smartphones": {
+      "truth": "out-of-scope",
+      "n": 8,
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 8
+    },
+    "medical/gloves": {
+      "truth": "out-of-scope",
+      "n": 17,
+      "general": 3,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 14
+    },
+    "medical/masks": {
+      "truth": "out-of-scope",
+      "n": 16,
+      "general": 5,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 11
+    },
+    "medical/medicines": {
+      "truth": "out-of-scope",
+      "n": 22,
+      "general": 0,
+      "plastic": 2,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 20
+    },
+    "medical/syringe": {
+      "truth": "out-of-scope",
+      "n": 32,
+      "general": 0,
+      "plastic": 1,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 31
+    },
+    "metal/beverage cans": {
+      "truth": "other",
+      "n": 37,
+      "general": 0,
+      "plastic": 1,
+      "paper": 0,
+      "other": 12,
+      "uncertain": 24
+    },
+    "metal/construction scrap": {
+      "truth": "out-of-scope",
+      "n": 20,
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 13,
+      "uncertain": 7
+    },
+    "metal/metal containers": {
+      "truth": "other",
+      "n": 20,
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 12,
+      "uncertain": 8
+    },
+    "metal/other metal objects": {
+      "truth": "other",
+      "n": 5,
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 3,
+      "uncertain": 2
+    },
+    "metal/spray cans": {
+      "truth": "other",
+      "n": 15,
+      "general": 0,
+      "plastic": 1,
+      "paper": 0,
+      "other": 2,
+      "uncertain": 12
+    },
+    "paper/news paper": {
+      "truth": "paper",
+      "n": 8,
+      "general": 0,
+      "plastic": 0,
+      "paper": 4,
+      "other": 0,
+      "uncertain": 4
+    },
+    "paper/paper": {
+      "truth": "paper",
+      "n": 45,
+      "general": 0,
+      "plastic": 0,
+      "paper": 21,
+      "other": 0,
+      "uncertain": 24
+    },
+    "paper/paper cups": {
+      "truth": "depends",
+      "n": 20,
+      "general": 0,
+      "plastic": 0,
+      "paper": 2,
+      "other": 3,
+      "uncertain": 15
+    },
+    "paper/tetra pak": {
+      "truth": "depends",
+      "n": 48,
+      "general": 0,
+      "plastic": 0,
+      "paper": 27,
+      "other": 0,
+      "uncertain": 21
+    },
+    "plastic/cigarette butt": {
+      "truth": "general",
+      "n": 19,
+      "general": 3,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 16
+    },
+    "plastic/plastic bags": {
+      "truth": "depends",
+      "n": 17,
+      "general": 2,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 15
+    },
+    "plastic/plastic bottles": {
+      "truth": "plastic",
+      "n": 26,
+      "general": 1,
+      "plastic": 17,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 8
+    },
+    "plastic/plastic containers": {
+      "truth": "plastic",
+      "n": 17,
+      "general": 0,
+      "plastic": 1,
+      "paper": 0,
+      "other": 1,
+      "uncertain": 15
+    },
+    "plastic/plastic cups": {
+      "truth": "depends",
+      "n": 17,
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 17
+    }
+  },
+  "confusion_matrix_rows_truth_cols_answer": {
+    "general": {
+      "general": 3,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 16
+    },
+    "plastic": {
+      "general": 1,
+      "plastic": 18,
+      "paper": 0,
+      "other": 1,
+      "uncertain": 23
+    },
+    "paper": {
+      "general": 0,
+      "plastic": 0,
+      "paper": 96,
+      "other": 0,
+      "uncertain": 60
+    },
+    "other": {
+      "general": 0,
+      "plastic": 4,
+      "paper": 0,
+      "other": 66,
+      "uncertain": 93
+    },
+    "out-of-scope": {
+      "general": 11,
+      "plastic": 4,
+      "paper": 1,
+      "other": 16,
+      "uncertain": 185
+    },
+    "depends": {
+      "general": 2,
+      "plastic": 0,
+      "paper": 29,
+      "other": 3,
+      "uncertain": 68
+    }
+  },
+  "uncertain_reasons": {
+    "low-confidence": 294,
+    "unsupported-object": 123,
+    "object-conflict": 28
+  },
+  "inference_ms": {
+    "mean": 265.82514693142804,
+    "median": 252.48135100000945,
+    "p95": 379.08474999998,
+    "note": "Five model passes per picture on this computer's CPU; phones will differ."
+  },
+  "wrong_recommendations": [
+    {
+      "file": "TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 182.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 0.98
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 397.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 1
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 505.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 0.959
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 691.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 1
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 133.jpg",
+      "truth": "out-of-scope",
+      "answer": "paper",
+      "confidence": 0.999
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 394.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.95
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 553.jpg",
+      "truth": "out-of-scope",
+      "answer": "plastic",
+      "confidence": 0.984
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 442.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.96
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/glass/glass 1523.jpg",
+      "truth": "other",
+      "answer": "plastic",
+      "confidence": 0.964
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/glass/glass 516.jpg",
+      "truth": "other",
+      "answer": "plastic",
+      "confidence": 0.982
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/gloves/gloves 107.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 0.994
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/gloves/gloves 349.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 0.984
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/gloves/gloves 399.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 0.997
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/masks/masks 15.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 0.998
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/masks/masks 155.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 0.979
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/masks/masks 21.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 0.997
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/masks/masks 223.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 0.999
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/masks/masks 236.jpg",
+      "truth": "out-of-scope",
+      "answer": "general",
+      "confidence": 1
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/medicines/medicines 237.jpg",
+      "truth": "out-of-scope",
+      "answer": "plastic",
+      "confidence": 0.999
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/medicines/medicines 252.jpg",
+      "truth": "out-of-scope",
+      "answer": "plastic",
+      "confidence": 0.956
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/medical/syringe/syringe 494.jpg",
+      "truth": "out-of-scope",
+      "answer": "plastic",
+      "confidence": 0.971
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 532.jpg",
+      "truth": "other",
+      "answer": "plastic",
+      "confidence": 0.964
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 111.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.981
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 145.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.969
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 163.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.997
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 165.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 1
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 191.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.95
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 20.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.974
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 227.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 1
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 263.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.997
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 316.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.991
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 352.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.99
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 372.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 1
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 475.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.975
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 521.jpg",
+      "truth": "out-of-scope",
+      "answer": "other",
+      "confidence": 0.973
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 433.jpg",
+      "truth": "other",
+      "answer": "plastic",
+      "confidence": 0.968
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 48.jpg",
+      "truth": "plastic",
+      "answer": "general",
+      "confidence": 0.974
+    },
+    {
+      "file": "TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 567.jpg",
+      "truth": "plastic",
+      "answer": "other",
+      "confidence": 0.998
+    }
+  ]
+}

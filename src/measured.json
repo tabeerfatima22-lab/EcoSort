@@ -1,0 +1,132 @@
+{
+  "generated": "2026-11-16",
+  "wasteModel": "smart_waste_mobilenetv2 1.3.1",
+  "authorReported": {
+    "testAccuracy": 0.8751472234725952,
+    "testImages": 1698,
+    "bySource": {
+      "trashnet": {
+        "accuracy": 0.8386243386243386,
+        "images": 378
+      },
+      "realwaste": {
+        "accuracy": 0.8104089219330854,
+        "images": 538
+      },
+      "garbage": {
+        "accuracy": 0.940026075619296,
+        "images": 767
+      },
+      "custom": {
+        "accuracy": 0.8,
+        "images": 15
+      }
+    }
+  },
+  "heldout": {
+    "strict": {
+      "pictures": 700,
+      "inScope": 381,
+      "outOfScope": 217,
+      "dependsOnLocalRules": 102,
+      "forcedBinAccuracy": 0.8608923884514436,
+      "forcedClassAccuracy": 0.7611548556430446,
+      "answered": 0.49606299212598426,
+      "accuracyWhenAnswered": 0.9682539682539683,
+      "wrongBinOfAll": 0.015748031496062992,
+      "outOfScopeHeldBack": 0.8525345622119815,
+      "outOfScopeToRecycling": 0.0967741935483871,
+      "meanMs": 265.82514693142804
+    },
+    "balanced": {
+      "pictures": 700,
+      "inScope": 381,
+      "outOfScope": 217,
+      "dependsOnLocalRules": 102,
+      "forcedBinAccuracy": 0.8608923884514436,
+      "forcedClassAccuracy": 0.7611548556430446,
+      "answered": 0.6482939632545932,
+      "accuracyWhenAnswered": 0.9230769230769231,
+      "wrongBinOfAll": 0.049868766404199474,
+      "outOfScopeHeldBack": 0.7373271889400922,
+      "outOfScopeToRecycling": 0.15668202764976957,
+      "meanMs": 294.3275309285714
+    }
+  },
+  "pipelineCheck": {
+    "pictures": 360,
+    "inScope": 360,
+    "outOfScope": 0,
+    "dependsOnLocalRules": 0,
+    "forcedBinAccuracy": 0.9083333333333333,
+    "forcedClassAccuracy": 0.8777777777777778,
+    "answered": 0.4777777777777778,
+    "accuracyWhenAnswered": 0.9941860465116279,
+    "wrongBinOfAll": 0.002777777777777778,
+    "outOfScopeHeldBack": null,
+    "outOfScopeToRecycling": null,
+    "meanMs": 298.6089363249999
+  },
+  "brightness": [
+    {
+      "factor": 0.3,
+      "pictures": 700,
+      "inScope": 381,
+      "outOfScope": 217,
+      "dependsOnLocalRules": 102,
+      "forcedBinAccuracy": 0.8031496062992126,
+      "forcedClassAccuracy": 0.6587926509186351,
+      "answered": 0.35958005249343833,
+      "accuracyWhenAnswered": 0.9854014598540146,
+      "wrongBinOfAll": 0.005249343832020997,
+      "outOfScopeHeldBack": 0.9262672811059908,
+      "outOfScopeToRecycling": 0.055299539170506916,
+      "meanMs": 264.83755895571477
+    },
+    {
+      "factor": 0.6,
+      "pictures": 700,
+      "inScope": 381,
+      "outOfScope": 217,
+      "dependsOnLocalRules": 102,
+      "forcedBinAccuracy": 0.8530183727034121,
+      "forcedClassAccuracy": 0.7322834645669292,
+      "answered": 0.45931758530183725,
+      "accuracyWhenAnswered": 0.9771428571428571,
+      "wrongBinOfAll": 0.010498687664041995,
+      "outOfScopeHeldBack": 0.8940092165898618,
+      "outOfScopeToRecycling": 0.06451612903225806,
+      "meanMs": 262.98540247999955
+    },
+    {
+      "factor": 1,
+      "pictures": 700,
+      "inScope": 381,
+      "outOfScope": 217,
+      "dependsOnLocalRules": 102,
+      "forcedBinAccuracy": 0.8608923884514436,
+      "forcedClassAccuracy": 0.7611548556430446,
+      "answered": 0.49606299212598426,
+      "accuracyWhenAnswered": 0.9682539682539683,
+      "wrongBinOfAll": 0.015748031496062992,
+      "outOfScopeHeldBack": 0.8525345622119815,
+      "outOfScopeToRecycling": 0.0967741935483871,
+      "meanMs": 265.82514693142804
+    },
+    {
+      "factor": 1.5,
+      "pictures": 700,
+      "inScope": 381,
+      "outOfScope": 217,
+      "dependsOnLocalRules": 102,
+      "forcedBinAccuracy": 0.7926509186351706,
+      "forcedClassAccuracy": 0.6640419947506562,
+      "answered": 0.4094488188976378,
+      "accuracyWhenAnswered": 0.9487179487179487,
+      "wrongBinOfAll": 0.02099737532808399,
+      "outOfScopeHeldBack": 0.8341013824884793,
+      "outOfScopeToRecycling": 0.10138248847926268,
+      "meanMs": 259.19376973142863
+    }
+  ]
+}

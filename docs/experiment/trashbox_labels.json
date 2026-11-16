@@ -1,0 +1,21 @@
+{
+  "_comment": "Ground truth for the TrashBox sample under EcoSort's four-bin scheme. Values: a material class (cardboard, glass, metal, paper, plastic, trash), 'out-of-scope' (the right answer is Uncertain), or 'depends' (acceptance varies by local rules, so the item is reported separately and not scored).",
+  "cardboard": "cardboard",
+  "glass": "glass",
+  "metal/beverage cans": "metal",
+  "metal/metal containers": "metal",
+  "metal/spray cans": "metal",
+  "metal/other metal objects": "metal",
+  "metal/construction scrap": "out-of-scope",
+  "paper/news paper": "paper",
+  "paper/paper": "paper",
+  "paper/paper cups": "depends",
+  "paper/tetra pak": "depends",
+  "plastic/plastic bottles": "plastic",
+  "plastic/plastic containers": "plastic",
+  "plastic/plastic cups": "depends",
+  "plastic/plastic bags": "depends",
+  "plastic/cigarette butt": "trash",
+  "e-waste": "out-of-scope",
+  "medical": "out-of-scope"
+}

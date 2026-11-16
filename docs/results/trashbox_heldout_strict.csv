@@ -1,0 +1,701 @@
+file,group,label,truth,answer,confidence,reason,ms
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1006.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,338
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1025.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9482,low-confidence,277
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1033.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9999,,204
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1039.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9994,,252
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1082.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9809,,307
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1131.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9953,,367
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 115.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.4732,low-confidence,335
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1197.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9992,,309
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1198.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.4806,low-confidence,273
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1207.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.6432,low-confidence,212
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1208.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.6443,low-confidence,294
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1212.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,269
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1216.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,237
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1242.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,262
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1253.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9993,,266
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1273.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9731,,261
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1277.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9986,,278
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1323.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.8530,low-confidence,287
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1333.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,271
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1385.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,291
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1402.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,274
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1418.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9702,,296
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 142.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9997,,419
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1432.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9314,unsupported-object,231
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1458.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,293
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1462.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9884,,261
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1476.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9707,,335
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1498.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9998,,241
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1528.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9994,unsupported-object,228
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1554.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9969,,247
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1578.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.8732,low-confidence,250
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1585.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,296
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1588.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,234
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1597.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9787,,210
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1627.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9992,,231
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1660.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,192
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1680.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9975,,181
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 171.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9776,,199
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1710.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,207
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1721.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,221
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1771.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,260
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 179.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9998,unsupported-object,258
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1796.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9999,,324
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1800.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.8355,low-confidence,333
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1818.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.6923,low-confidence,261
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1855.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9822,,227
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 187.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9968,,273
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1899.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,269
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1931.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,282
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1958.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9801,object-conflict,293
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1991.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,302
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 1997.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9986,,269
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2064.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,246
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2088.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.7149,low-confidence,464
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2099.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,323
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2111.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,303
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 212.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9980,,184
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2175.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9991,,268
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2191.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,260
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2235.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.4880,low-confidence,419
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2305.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9950,,241
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2341.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,252
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2343.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9995,,261
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2381.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.8933,low-confidence,264
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2383.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.7107,low-confidence,521
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2397.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.7787,low-confidence,225
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 2408.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.8351,low-confidence,291
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 305.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.6541,low-confidence,225
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 333.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,216
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 373.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9987,,254
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 385.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,284
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 469.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9116,low-confidence,289
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 487.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,228
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 502.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.7346,low-confidence,232
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 504.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9979,,194
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 523.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,189
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 528.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9316,low-confidence,198
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 534.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,277
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 585.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,319
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 621.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.5843,low-confidence,343
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 643.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9313,low-confidence,272
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 645.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.8636,low-confidence,229
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 653.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9080,low-confidence,211
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 654.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.8936,low-confidence,213
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 662.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9968,,312
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 669.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9999,,290
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 677.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9917,,317
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 688.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9777,,340
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 70.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,276
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 734.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,264
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 75.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,237
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 759.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9998,unsupported-object,260
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 770.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9998,,251
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 808.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,224
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 810.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9136,low-confidence,213
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 827.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.9999,unsupported-object,205
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 847.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,244
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 857.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,195
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 867.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9986,,185
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 875.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,180
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 890.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,0.9981,,279
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 94.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,paper,1.0000,,273
+"TrashBox_train_dataset_subfolders/cardboard/cardboard 945.jpg","TrashBox_train_dataset_subfolders/cardboard",cardboard,paper,uncertain,0.4601,low-confidence,263
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 1.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.6127,low-confidence,247
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 136.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.5414,low-confidence,370
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 142.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.8454,low-confidence,284
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 153.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.9847,unsupported-object,305
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 154.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.6569,low-confidence,238
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 175.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.9856,unsupported-object,208
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 182.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,general,0.9802,,274
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 257.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.7739,low-confidence,300
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 292.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.9810,unsupported-object,258
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 397.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,other,0.9998,,283
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 410.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.5450,low-confidence,344
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 420.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.7030,low-confidence,291
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 488.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.5401,unsupported-object,212
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 505.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,general,0.9585,,215
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 540.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.9620,unsupported-object,232
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 545.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.7941,unsupported-object,250
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 62.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.4410,unsupported-object,186
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 641.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.4851,unsupported-object,272
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 686.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,uncertain,0.7504,low-confidence,221
+"TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 691.jpg","e-waste/electrical cables",out-of-scope,out-of-scope,general,0.9999,,249
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 0.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.6648,unsupported-object,277
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 11.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.5213,low-confidence,255
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 133.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,paper,0.9993,,339
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 176.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.4378,unsupported-object,355
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 182.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.4809,low-confidence,369
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 189.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.4964,low-confidence,337
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 210.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.8851,low-confidence,276
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 211.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.6086,low-confidence,260
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 222.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.4457,low-confidence,202
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 25.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.5372,unsupported-object,198
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 29.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.7495,unsupported-object,261
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 350.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.5059,unsupported-object,323
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 361.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.5365,low-confidence,278
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 394.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,other,0.9501,,250
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 436.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.5842,unsupported-object,276
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 439.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.7742,unsupported-object,259
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 440.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.9394,unsupported-object,278
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 454.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.5195,unsupported-object,345
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 462.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.9015,unsupported-object,312
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 47.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.4874,low-confidence,285
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 475.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.5159,unsupported-object,284
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 477.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.6896,low-confidence,247
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 489.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.6311,low-confidence,266
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 542.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.5412,unsupported-object,255
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 553.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,plastic,0.9844,,227
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 567.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.7874,unsupported-object,464
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 574.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.7682,low-confidence,266
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 599.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.8466,low-confidence,278
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 606.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.6016,unsupported-object,399
+"TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 89.jpg","e-waste/electronic chips",out-of-scope,out-of-scope,uncertain,0.3513,low-confidence,238
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 13.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.5058,unsupported-object,203
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 132.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.6896,low-confidence,216
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 14.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.5723,unsupported-object,256
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 145.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.8106,unsupported-object,281
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 156.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.9347,unsupported-object,230
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 191.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.8344,low-confidence,353
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 23.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.6887,unsupported-object,338
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 258.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.6489,unsupported-object,231
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 271.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.9863,unsupported-object,198
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 285.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.9845,unsupported-object,249
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 301.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.7530,unsupported-object,189
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 329.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.8540,unsupported-object,253
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 442.jpg","e-waste/laptops",out-of-scope,out-of-scope,other,0.9605,,236
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 486.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.4354,unsupported-object,202
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 492.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.6839,unsupported-object,265
+"TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 92.jpg","e-waste/laptops",out-of-scope,out-of-scope,uncertain,0.4498,unsupported-object,256
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 117.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.3838,unsupported-object,248
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 12.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.3881,unsupported-object,251
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 125.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.6130,unsupported-object,255
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 154.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.8462,unsupported-object,249
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 184.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.5281,unsupported-object,262
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 204.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.9990,unsupported-object,256
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 266.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.9832,unsupported-object,260
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 316.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.3696,unsupported-object,249
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 321.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.7162,unsupported-object,274
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 333.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.5900,low-confidence,201
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 36.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.7744,unsupported-object,178
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 368.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.7766,unsupported-object,232
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 372.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.8547,unsupported-object,237
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 379.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.4343,unsupported-object,216
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 392.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.6567,unsupported-object,225
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 393.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.8835,unsupported-object,279
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 403.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.6175,low-confidence,217
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 441.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.5121,unsupported-object,234
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 485.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.5017,unsupported-object,266
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 521.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.9150,low-confidence,240
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 535.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.7531,unsupported-object,239
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 55.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.7562,unsupported-object,251
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 618.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.8220,unsupported-object,239
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 632.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.7235,unsupported-object,213
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 679.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.4562,unsupported-object,239
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 680.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.6886,low-confidence,262
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 721.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.6790,low-confidence,311
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 723.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.6377,low-confidence,287
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 730.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.6124,low-confidence,263
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 756.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.8423,low-confidence,247
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 763.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.7787,low-confidence,244
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 877.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.6774,unsupported-object,178
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 896.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.8248,unsupported-object,196
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 898.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.5797,unsupported-object,216
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 917.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.6181,unsupported-object,215
+"TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 94.jpg","e-waste/small appliances",out-of-scope,out-of-scope,uncertain,0.5448,unsupported-object,211
+"TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 109.jpg","e-waste/smartphones",out-of-scope,out-of-scope,uncertain,0.6529,unsupported-object,219
+"TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 19.jpg","e-waste/smartphones",out-of-scope,out-of-scope,uncertain,0.4980,unsupported-object,391
+"TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 21.jpg","e-waste/smartphones",out-of-scope,out-of-scope,uncertain,0.6107,unsupported-object,531
+"TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 232.jpg","e-waste/smartphones",out-of-scope,out-of-scope,uncertain,0.9425,unsupported-object,278
+"TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 41.jpg","e-waste/smartphones",out-of-scope,out-of-scope,uncertain,0.5488,unsupported-object,256
+"TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 50.jpg","e-waste/smartphones",out-of-scope,out-of-scope,uncertain,0.6848,low-confidence,203
+"TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 61.jpg","e-waste/smartphones",out-of-scope,out-of-scope,uncertain,0.3487,low-confidence,244
+"TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 95.jpg","e-waste/smartphones",out-of-scope,out-of-scope,uncertain,0.9005,low-confidence,278
+"TrashBox_train_dataset_subfolders/glass/glass 1035.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.6357,low-confidence,206
+"TrashBox_train_dataset_subfolders/glass/glass 1065.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9979,,397
+"TrashBox_train_dataset_subfolders/glass/glass 1160.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8887,unsupported-object,316
+"TrashBox_train_dataset_subfolders/glass/glass 118.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.5853,low-confidence,332
+"TrashBox_train_dataset_subfolders/glass/glass 1184.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.5420,low-confidence,217
+"TrashBox_train_dataset_subfolders/glass/glass 1234.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.7989,low-confidence,230
+"TrashBox_train_dataset_subfolders/glass/glass 1237.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.7266,low-confidence,307
+"TrashBox_train_dataset_subfolders/glass/glass 1266.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9877,,204
+"TrashBox_train_dataset_subfolders/glass/glass 1276.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.7101,low-confidence,296
+"TrashBox_train_dataset_subfolders/glass/glass 1302.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9175,low-confidence,233
+"TrashBox_train_dataset_subfolders/glass/glass 1311.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8356,low-confidence,279
+"TrashBox_train_dataset_subfolders/glass/glass 1322.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.6145,low-confidence,319
+"TrashBox_train_dataset_subfolders/glass/glass 1353.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9283,low-confidence,194
+"TrashBox_train_dataset_subfolders/glass/glass 1365.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.7979,low-confidence,207
+"TrashBox_train_dataset_subfolders/glass/glass 1372.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,1.0000,,257
+"TrashBox_train_dataset_subfolders/glass/glass 138.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9876,,271
+"TrashBox_train_dataset_subfolders/glass/glass 1400.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9838,,197
+"TrashBox_train_dataset_subfolders/glass/glass 1413.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9767,,197
+"TrashBox_train_dataset_subfolders/glass/glass 1432.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8435,low-confidence,242
+"TrashBox_train_dataset_subfolders/glass/glass 1475.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9679,,280
+"TrashBox_train_dataset_subfolders/glass/glass 1482.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9696,,241
+"TrashBox_train_dataset_subfolders/glass/glass 1509.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9818,,377
+"TrashBox_train_dataset_subfolders/glass/glass 1514.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9988,,388
+"TrashBox_train_dataset_subfolders/glass/glass 1521.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.7426,low-confidence,257
+"TrashBox_train_dataset_subfolders/glass/glass 1523.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,plastic,0.9637,,277
+"TrashBox_train_dataset_subfolders/glass/glass 159.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.5121,low-confidence,247
+"TrashBox_train_dataset_subfolders/glass/glass 163.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,1.0000,,288
+"TrashBox_train_dataset_subfolders/glass/glass 1631.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9986,,247
+"TrashBox_train_dataset_subfolders/glass/glass 1645.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8860,low-confidence,246
+"TrashBox_train_dataset_subfolders/glass/glass 1707.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9931,,347
+"TrashBox_train_dataset_subfolders/glass/glass 1709.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9830,,391
+"TrashBox_train_dataset_subfolders/glass/glass 1721.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9488,low-confidence,322
+"TrashBox_train_dataset_subfolders/glass/glass 1778.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.7520,low-confidence,344
+"TrashBox_train_dataset_subfolders/glass/glass 1787.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9855,,299
+"TrashBox_train_dataset_subfolders/glass/glass 180.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8857,low-confidence,322
+"TrashBox_train_dataset_subfolders/glass/glass 1800.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9992,,344
+"TrashBox_train_dataset_subfolders/glass/glass 1806.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9255,object-conflict,251
+"TrashBox_train_dataset_subfolders/glass/glass 1844.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8668,low-confidence,248
+"TrashBox_train_dataset_subfolders/glass/glass 1846.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9991,,353
+"TrashBox_train_dataset_subfolders/glass/glass 1885.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9940,object-conflict,270
+"TrashBox_train_dataset_subfolders/glass/glass 1907.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9981,,323
+"TrashBox_train_dataset_subfolders/glass/glass 1919.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8371,low-confidence,396
+"TrashBox_train_dataset_subfolders/glass/glass 1975.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9999,object-conflict,378
+"TrashBox_train_dataset_subfolders/glass/glass 201.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9896,,223
+"TrashBox_train_dataset_subfolders/glass/glass 2021.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9786,,211
+"TrashBox_train_dataset_subfolders/glass/glass 2024.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.5679,low-confidence,243
+"TrashBox_train_dataset_subfolders/glass/glass 2031.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9894,,263
+"TrashBox_train_dataset_subfolders/glass/glass 2039.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8476,low-confidence,230
+"TrashBox_train_dataset_subfolders/glass/glass 2060.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9581,,233
+"TrashBox_train_dataset_subfolders/glass/glass 2069.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9758,,203
+"TrashBox_train_dataset_subfolders/glass/glass 2105.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.3444,low-confidence,282
+"TrashBox_train_dataset_subfolders/glass/glass 2172.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9897,,328
+"TrashBox_train_dataset_subfolders/glass/glass 2204.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9232,low-confidence,210
+"TrashBox_train_dataset_subfolders/glass/glass 2239.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9998,,296
+"TrashBox_train_dataset_subfolders/glass/glass 2247.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9745,,253
+"TrashBox_train_dataset_subfolders/glass/glass 2358.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9984,,208
+"TrashBox_train_dataset_subfolders/glass/glass 236.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9988,,182
+"TrashBox_train_dataset_subfolders/glass/glass 2365.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8898,low-confidence,253
+"TrashBox_train_dataset_subfolders/glass/glass 239.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9480,low-confidence,230
+"TrashBox_train_dataset_subfolders/glass/glass 2402.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9757,,409
+"TrashBox_train_dataset_subfolders/glass/glass 2450.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9869,,234
+"TrashBox_train_dataset_subfolders/glass/glass 2452.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9999,,236
+"TrashBox_train_dataset_subfolders/glass/glass 2484.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9999,,257
+"TrashBox_train_dataset_subfolders/glass/glass 30.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9482,low-confidence,338
+"TrashBox_train_dataset_subfolders/glass/glass 358.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.6116,low-confidence,323
+"TrashBox_train_dataset_subfolders/glass/glass 368.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.6792,low-confidence,241
+"TrashBox_train_dataset_subfolders/glass/glass 376.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.5292,low-confidence,293
+"TrashBox_train_dataset_subfolders/glass/glass 381.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.5600,low-confidence,204
+"TrashBox_train_dataset_subfolders/glass/glass 426.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9674,,183
+"TrashBox_train_dataset_subfolders/glass/glass 516.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,plastic,0.9817,,202
+"TrashBox_train_dataset_subfolders/glass/glass 518.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.6923,low-confidence,247
+"TrashBox_train_dataset_subfolders/glass/glass 532.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.6755,low-confidence,292
+"TrashBox_train_dataset_subfolders/glass/glass 548.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.7471,low-confidence,253
+"TrashBox_train_dataset_subfolders/glass/glass 563.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8120,low-confidence,256
+"TrashBox_train_dataset_subfolders/glass/glass 565.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9943,,284
+"TrashBox_train_dataset_subfolders/glass/glass 64.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.7429,low-confidence,258
+"TrashBox_train_dataset_subfolders/glass/glass 691.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9882,,232
+"TrashBox_train_dataset_subfolders/glass/glass 7.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9977,,229
+"TrashBox_train_dataset_subfolders/glass/glass 741.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9618,unsupported-object,214
+"TrashBox_train_dataset_subfolders/glass/glass 745.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.6948,low-confidence,240
+"TrashBox_train_dataset_subfolders/glass/glass 762.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,other,0.9520,,369
+"TrashBox_train_dataset_subfolders/glass/glass 870.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.8784,low-confidence,598
+"TrashBox_train_dataset_subfolders/glass/glass 899.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.5392,low-confidence,310
+"TrashBox_train_dataset_subfolders/glass/glass 909.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.4687,low-confidence,409
+"TrashBox_train_dataset_subfolders/glass/glass 91.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9089,low-confidence,269
+"TrashBox_train_dataset_subfolders/glass/glass 988.jpg","TrashBox_train_dataset_subfolders/glass",glass,other,uncertain,0.9872,object-conflict,294
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 107.jpg","medical/gloves",out-of-scope,out-of-scope,general,0.9945,,227
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 136.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.7240,low-confidence,202
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 165.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.7877,low-confidence,203
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 18.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.4318,low-confidence,282
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 196.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.8799,low-confidence,272
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 247.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.9387,low-confidence,247
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 26.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.7615,low-confidence,202
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 349.jpg","medical/gloves",out-of-scope,out-of-scope,general,0.9839,,182
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 370.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.8379,low-confidence,217
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 399.jpg","medical/gloves",out-of-scope,out-of-scope,general,0.9971,,251
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 428.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.8102,low-confidence,233
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 47.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.4932,low-confidence,231
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 58.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.8847,low-confidence,298
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 61.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.4233,low-confidence,233
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 71.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.9070,low-confidence,247
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 82.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.6256,low-confidence,366
+"TrashBox_train_dataset_subfolders/medical/gloves/gloves 91.jpg","medical/gloves",out-of-scope,out-of-scope,uncertain,0.7057,low-confidence,282
+"TrashBox_train_dataset_subfolders/medical/masks/masks 100.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.6390,low-confidence,205
+"TrashBox_train_dataset_subfolders/medical/masks/masks 15.jpg","medical/masks",out-of-scope,out-of-scope,general,0.9979,,222
+"TrashBox_train_dataset_subfolders/medical/masks/masks 155.jpg","medical/masks",out-of-scope,out-of-scope,general,0.9794,,244
+"TrashBox_train_dataset_subfolders/medical/masks/masks 156.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.5821,low-confidence,268
+"TrashBox_train_dataset_subfolders/medical/masks/masks 201.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.9078,low-confidence,259
+"TrashBox_train_dataset_subfolders/medical/masks/masks 21.jpg","medical/masks",out-of-scope,out-of-scope,general,0.9971,,400
+"TrashBox_train_dataset_subfolders/medical/masks/masks 223.jpg","medical/masks",out-of-scope,out-of-scope,general,0.9994,,693
+"TrashBox_train_dataset_subfolders/medical/masks/masks 233.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.9213,low-confidence,301
+"TrashBox_train_dataset_subfolders/medical/masks/masks 236.jpg","medical/masks",out-of-scope,out-of-scope,general,1.0000,,231
+"TrashBox_train_dataset_subfolders/medical/masks/masks 238.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.5731,unsupported-object,293
+"TrashBox_train_dataset_subfolders/medical/masks/masks 255.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.4684,low-confidence,356
+"TrashBox_train_dataset_subfolders/medical/masks/masks 445.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.5067,low-confidence,285
+"TrashBox_train_dataset_subfolders/medical/masks/masks 480.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.7345,low-confidence,274
+"TrashBox_train_dataset_subfolders/medical/masks/masks 495.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.7879,low-confidence,261
+"TrashBox_train_dataset_subfolders/medical/masks/masks 5.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.4366,unsupported-object,235
+"TrashBox_train_dataset_subfolders/medical/masks/masks 76.jpg","medical/masks",out-of-scope,out-of-scope,uncertain,0.8089,low-confidence,361
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 100.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.4898,low-confidence,329
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 104.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.9341,low-confidence,315
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 108.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.5403,low-confidence,252
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 112.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.6140,object-conflict,307
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 125.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.8813,low-confidence,266
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 163.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.4806,low-confidence,332
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 18.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.4212,low-confidence,363
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 194.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.5245,low-confidence,338
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 195.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.6482,unsupported-object,264
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 198.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.8355,low-confidence,243
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 202.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.3233,object-conflict,254
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 216.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.6438,low-confidence,290
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 237.jpg","medical/medicines",out-of-scope,out-of-scope,plastic,0.9990,,271
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 25.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.8912,low-confidence,264
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 252.jpg","medical/medicines",out-of-scope,out-of-scope,plastic,0.9558,,313
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 355.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.8950,low-confidence,236
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 378.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.8566,low-confidence,220
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 426.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.3741,low-confidence,272
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 446.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.5900,low-confidence,272
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 476.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.7424,low-confidence,324
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 55.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.6881,low-confidence,267
+"TrashBox_train_dataset_subfolders/medical/medicines/medicines 65.jpg","medical/medicines",out-of-scope,out-of-scope,uncertain,0.8565,low-confidence,290
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 102.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.8370,low-confidence,252
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 107.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9926,unsupported-object,242
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 15.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.6523,low-confidence,268
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 155.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9994,unsupported-object,648
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 167.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9663,unsupported-object,645
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 18.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9540,unsupported-object,257
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 227.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9001,unsupported-object,272
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 233.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9869,unsupported-object,286
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 261.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9985,unsupported-object,279
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 262.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.8021,unsupported-object,303
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 285.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.5737,low-confidence,213
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 290.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.6409,unsupported-object,209
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 315.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.6713,unsupported-object,235
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 322.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9929,unsupported-object,460
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 326.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.7342,unsupported-object,216
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 342.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.6771,low-confidence,245
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 36.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9001,unsupported-object,278
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 375.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.6843,low-confidence,323
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 40.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9640,unsupported-object,233
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 402.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.4790,unsupported-object,278
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 413.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9571,unsupported-object,344
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 424.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.7614,unsupported-object,281
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 453.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.8430,unsupported-object,277
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 459.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.7398,unsupported-object,236
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 494.jpg","medical/syringe",out-of-scope,out-of-scope,plastic,0.9710,,189
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 495.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9988,unsupported-object,193
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 498.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.5861,unsupported-object,331
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 59.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.6550,low-confidence,770
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 68.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.4253,low-confidence,285
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 83.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.9915,unsupported-object,246
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 88.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.4562,low-confidence,264
+"TrashBox_train_dataset_subfolders/medical/syringe/syringe 95.jpg","medical/syringe",out-of-scope,out-of-scope,uncertain,0.7795,unsupported-object,276
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 1.jpg","metal/beverage cans",metal,other,uncertain,0.6083,low-confidence,312
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 107.jpg","metal/beverage cans",metal,other,uncertain,0.7058,low-confidence,253
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 163.jpg","metal/beverage cans",metal,other,other,0.9975,,230
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 182.jpg","metal/beverage cans",metal,other,uncertain,0.7988,object-conflict,258
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 219.jpg","metal/beverage cans",metal,other,uncertain,0.9337,low-confidence,246
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 251.jpg","metal/beverage cans",metal,other,uncertain,0.7650,low-confidence,287
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 294.jpg","metal/beverage cans",metal,other,uncertain,0.8775,low-confidence,240
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 298.jpg","metal/beverage cans",metal,other,other,0.9756,,240
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 329.jpg","metal/beverage cans",metal,other,uncertain,0.7654,low-confidence,241
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 350.jpg","metal/beverage cans",metal,other,uncertain,0.6632,unsupported-object,287
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 353.jpg","metal/beverage cans",metal,other,uncertain,0.9084,low-confidence,267
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 365.jpg","metal/beverage cans",metal,other,uncertain,0.5205,low-confidence,225
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 433.jpg","metal/beverage cans",metal,other,uncertain,0.7078,low-confidence,293
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 446.jpg","metal/beverage cans",metal,other,uncertain,1.0000,unsupported-object,248
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 469.jpg","metal/beverage cans",metal,other,uncertain,0.7154,low-confidence,207
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 48.jpg","metal/beverage cans",metal,other,uncertain,0.7960,low-confidence,272
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 486.jpg","metal/beverage cans",metal,other,uncertain,0.7857,low-confidence,277
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 525.jpg","metal/beverage cans",metal,other,uncertain,0.5729,low-confidence,386
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 531.jpg","metal/beverage cans",metal,other,uncertain,0.6301,low-confidence,215
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 532.jpg","metal/beverage cans",metal,other,plastic,0.9643,,303
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 535.jpg","metal/beverage cans",metal,other,uncertain,0.9997,unsupported-object,412
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 540.jpg","metal/beverage cans",metal,other,other,0.9999,,257
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 563.jpg","metal/beverage cans",metal,other,uncertain,0.9474,low-confidence,267
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 589.jpg","metal/beverage cans",metal,other,other,0.9894,,256
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 591.jpg","metal/beverage cans",metal,other,other,0.9990,,306
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 736.jpg","metal/beverage cans",metal,other,other,0.9964,,240
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 738.jpg","metal/beverage cans",metal,other,other,0.9990,,257
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 750.jpg","metal/beverage cans",metal,other,other,0.9720,,234
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 821.jpg","metal/beverage cans",metal,other,uncertain,0.7578,low-confidence,265
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 824.jpg","metal/beverage cans",metal,other,uncertain,0.9201,low-confidence,261
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 844.jpg","metal/beverage cans",metal,other,uncertain,0.8398,low-confidence,262
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 867.jpg","metal/beverage cans",metal,other,other,1.0000,,272
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 885.jpg","metal/beverage cans",metal,other,uncertain,0.8954,low-confidence,246
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 933.jpg","metal/beverage cans",metal,other,other,0.9997,,264
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 959.jpg","metal/beverage cans",metal,other,other,0.9856,,275
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 985.jpg","metal/beverage cans",metal,other,other,1.0000,,312
+"TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 993.jpg","metal/beverage cans",metal,other,uncertain,0.9425,low-confidence,300
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 111.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9815,,298
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 145.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9688,,303
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 149.jpg","metal/construction scrap",out-of-scope,out-of-scope,uncertain,0.9063,low-confidence,229
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 163.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9975,,265
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 165.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,1.0000,,248
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 190.jpg","metal/construction scrap",out-of-scope,out-of-scope,uncertain,0.9963,unsupported-object,310
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 191.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9503,,244
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 20.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9735,,288
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 227.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,1.0000,,200
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 230.jpg","metal/construction scrap",out-of-scope,out-of-scope,uncertain,0.5461,low-confidence,270
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 25.jpg","metal/construction scrap",out-of-scope,out-of-scope,uncertain,0.5820,low-confidence,290
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 263.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9966,,256
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 276.jpg","metal/construction scrap",out-of-scope,out-of-scope,uncertain,0.8995,low-confidence,301
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 316.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9911,,396
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 335.jpg","metal/construction scrap",out-of-scope,out-of-scope,uncertain,0.5248,low-confidence,279
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 352.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9901,,234
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 372.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,1.0000,,306
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 412.jpg","metal/construction scrap",out-of-scope,out-of-scope,uncertain,0.6226,low-confidence,277
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 475.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9752,,194
+"TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 521.jpg","metal/construction scrap",out-of-scope,out-of-scope,other,0.9726,,426
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 131.jpg","metal/metal containers",metal,other,other,0.9792,,181
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 143.jpg","metal/metal containers",metal,other,other,0.9978,,176
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 158.jpg","metal/metal containers",metal,other,uncertain,0.7837,low-confidence,218
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 178.jpg","metal/metal containers",metal,other,other,0.9984,,188
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 186.jpg","metal/metal containers",metal,other,uncertain,0.8219,unsupported-object,202
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 199.jpg","metal/metal containers",metal,other,other,1.0000,,404
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 209.jpg","metal/metal containers",metal,other,other,0.9607,,234
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 234.jpg","metal/metal containers",metal,other,other,0.9997,,275
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 255.jpg","metal/metal containers",metal,other,uncertain,0.9369,low-confidence,235
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 270.jpg","metal/metal containers",metal,other,uncertain,0.8253,low-confidence,261
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 276.jpg","metal/metal containers",metal,other,uncertain,0.8812,object-conflict,201
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 334.jpg","metal/metal containers",metal,other,other,1.0000,,234
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 382.jpg","metal/metal containers",metal,other,uncertain,0.5713,low-confidence,236
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 388.jpg","metal/metal containers",metal,other,uncertain,0.8567,low-confidence,233
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 398.jpg","metal/metal containers",metal,other,other,1.0000,,258
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 412.jpg","metal/metal containers",metal,other,other,0.9994,,282
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 429.jpg","metal/metal containers",metal,other,other,0.9998,,241
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 458.jpg","metal/metal containers",metal,other,other,1.0000,,265
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 68.jpg","metal/metal containers",metal,other,other,1.0000,,240
+"TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 71.jpg","metal/metal containers",metal,other,uncertain,0.7520,unsupported-object,275
+"TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 13.jpg","metal/other metal objects",metal,other,uncertain,0.8660,object-conflict,239
+"TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 16.jpg","metal/other metal objects",metal,other,uncertain,0.4786,low-confidence,227
+"TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 21.jpg","metal/other metal objects",metal,other,other,0.9784,,288
+"TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 26.jpg","metal/other metal objects",metal,other,other,0.9897,,297
+"TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 35.jpg","metal/other metal objects",metal,other,other,0.9990,,247
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 131.jpg","metal/spray cans",metal,other,uncertain,0.9990,unsupported-object,242
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 172.jpg","metal/spray cans",metal,other,uncertain,0.9144,low-confidence,302
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 212.jpg","metal/spray cans",metal,other,uncertain,0.6940,low-confidence,270
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 227.jpg","metal/spray cans",metal,other,other,0.9843,,271
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 252.jpg","metal/spray cans",metal,other,uncertain,0.4909,low-confidence,307
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 257.jpg","metal/spray cans",metal,other,uncertain,0.7884,low-confidence,248
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 268.jpg","metal/spray cans",metal,other,uncertain,0.7270,low-confidence,245
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 303.jpg","metal/spray cans",metal,other,uncertain,0.6107,low-confidence,362
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 370.jpg","metal/spray cans",metal,other,uncertain,0.7034,low-confidence,349
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 381.jpg","metal/spray cans",metal,other,other,0.9948,,281
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 411.jpg","metal/spray cans",metal,other,uncertain,0.8297,low-confidence,186
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 433.jpg","metal/spray cans",metal,other,plastic,0.9683,,213
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 60.jpg","metal/spray cans",metal,other,uncertain,0.7196,low-confidence,186
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 62.jpg","metal/spray cans",metal,other,uncertain,0.7628,low-confidence,186
+"TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 71.jpg","metal/spray cans",metal,other,uncertain,0.8975,low-confidence,203
+"TrashBox_train_dataset_subfolders/paper/news paper/news_paper 114.jpg","paper/news paper",paper,paper,uncertain,1.0000,unsupported-object,190
+"TrashBox_train_dataset_subfolders/paper/news paper/news_paper 116.jpg","paper/news paper",paper,paper,paper,0.9848,,310
+"TrashBox_train_dataset_subfolders/paper/news paper/news_paper 132.jpg","paper/news paper",paper,paper,uncertain,0.9530,unsupported-object,265
+"TrashBox_train_dataset_subfolders/paper/news paper/news_paper 139.jpg","paper/news paper",paper,paper,paper,0.9991,,235
+"TrashBox_train_dataset_subfolders/paper/news paper/news_paper 142.jpg","paper/news paper",paper,paper,paper,0.9871,,279
+"TrashBox_train_dataset_subfolders/paper/news paper/news_paper 199.jpg","paper/news paper",paper,paper,uncertain,0.9192,low-confidence,239
+"TrashBox_train_dataset_subfolders/paper/news paper/news_paper 62.jpg","paper/news paper",paper,paper,uncertain,0.8685,low-confidence,262
+"TrashBox_train_dataset_subfolders/paper/news paper/news_paper 69.jpg","paper/news paper",paper,paper,paper,0.9997,,310
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 117.jpg","paper/paper cups",depends,depends,other,0.9630,,240
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 139.jpg","paper/paper cups",depends,depends,uncertain,0.8761,low-confidence,254
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 174.jpg","paper/paper cups",depends,depends,uncertain,0.9044,low-confidence,244
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 175.jpg","paper/paper cups",depends,depends,uncertain,0.4003,low-confidence,254
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 203.jpg","paper/paper cups",depends,depends,uncertain,0.6073,low-confidence,243
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 206.jpg","paper/paper cups",depends,depends,uncertain,0.7836,low-confidence,197
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 227.jpg","paper/paper cups",depends,depends,paper,0.9837,,246
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 232.jpg","paper/paper cups",depends,depends,uncertain,0.8105,low-confidence,226
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 336.jpg","paper/paper cups",depends,depends,paper,0.9927,,203
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 339.jpg","paper/paper cups",depends,depends,uncertain,0.6301,low-confidence,249
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 353.jpg","paper/paper cups",depends,depends,uncertain,0.9391,low-confidence,220
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 393.jpg","paper/paper cups",depends,depends,uncertain,0.6654,low-confidence,252
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 465.jpg","paper/paper cups",depends,depends,uncertain,0.4389,low-confidence,323
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 468.jpg","paper/paper cups",depends,depends,uncertain,0.7448,low-confidence,258
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 478.jpg","paper/paper cups",depends,depends,other,0.9999,,279
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 50.jpg","paper/paper cups",depends,depends,uncertain,0.9063,low-confidence,259
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 568.jpg","paper/paper cups",depends,depends,uncertain,0.7105,low-confidence,282
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 628.jpg","paper/paper cups",depends,depends,other,0.9990,,181
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 67.jpg","paper/paper cups",depends,depends,uncertain,0.6073,low-confidence,185
+"TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 8.jpg","paper/paper cups",depends,depends,uncertain,0.5189,low-confidence,292
+"TrashBox_train_dataset_subfolders/paper/paper/paper 129.jpg","paper/paper",paper,paper,uncertain,0.4742,low-confidence,254
+"TrashBox_train_dataset_subfolders/paper/paper/paper 136.jpg","paper/paper",paper,paper,paper,0.9919,,295
+"TrashBox_train_dataset_subfolders/paper/paper/paper 173.jpg","paper/paper",paper,paper,uncertain,0.8574,low-confidence,201
+"TrashBox_train_dataset_subfolders/paper/paper/paper 206.jpg","paper/paper",paper,paper,uncertain,0.4320,object-conflict,221
+"TrashBox_train_dataset_subfolders/paper/paper/paper 208.jpg","paper/paper",paper,paper,uncertain,0.9694,unsupported-object,293
+"TrashBox_train_dataset_subfolders/paper/paper/paper 223.jpg","paper/paper",paper,paper,uncertain,0.4783,low-confidence,245
+"TrashBox_train_dataset_subfolders/paper/paper/paper 230.jpg","paper/paper",paper,paper,uncertain,0.6987,object-conflict,214
+"TrashBox_train_dataset_subfolders/paper/paper/paper 267.jpg","paper/paper",paper,paper,paper,0.9964,,248
+"TrashBox_train_dataset_subfolders/paper/paper/paper 279.jpg","paper/paper",paper,paper,uncertain,0.5466,low-confidence,239
+"TrashBox_train_dataset_subfolders/paper/paper/paper 321.jpg","paper/paper",paper,paper,paper,0.9509,,215
+"TrashBox_train_dataset_subfolders/paper/paper/paper 346.jpg","paper/paper",paper,paper,paper,0.9999,,297
+"TrashBox_train_dataset_subfolders/paper/paper/paper 349.jpg","paper/paper",paper,paper,paper,0.9975,,225
+"TrashBox_train_dataset_subfolders/paper/paper/paper 366.jpg","paper/paper",paper,paper,uncertain,0.9948,unsupported-object,183
+"TrashBox_train_dataset_subfolders/paper/paper/paper 378.jpg","paper/paper",paper,paper,paper,0.9947,,205
+"TrashBox_train_dataset_subfolders/paper/paper/paper 409.jpg","paper/paper",paper,paper,uncertain,0.6937,low-confidence,247
+"TrashBox_train_dataset_subfolders/paper/paper/paper 447.jpg","paper/paper",paper,paper,paper,0.9997,,232
+"TrashBox_train_dataset_subfolders/paper/paper/paper 451.jpg","paper/paper",paper,paper,uncertain,0.7475,low-confidence,201
+"TrashBox_train_dataset_subfolders/paper/paper/paper 456.jpg","paper/paper",paper,paper,uncertain,0.8639,unsupported-object,220
+"TrashBox_train_dataset_subfolders/paper/paper/paper 459.jpg","paper/paper",paper,paper,uncertain,0.9237,object-conflict,198
+"TrashBox_train_dataset_subfolders/paper/paper/paper 485.jpg","paper/paper",paper,paper,paper,0.9879,,187
+"TrashBox_train_dataset_subfolders/paper/paper/paper 490.jpg","paper/paper",paper,paper,paper,0.9902,,184
+"TrashBox_train_dataset_subfolders/paper/paper/paper 508.jpg","paper/paper",paper,paper,uncertain,0.6503,low-confidence,207
+"TrashBox_train_dataset_subfolders/paper/paper/paper 511.jpg","paper/paper",paper,paper,paper,0.9997,,206
+"TrashBox_train_dataset_subfolders/paper/paper/paper 52.jpg","paper/paper",paper,paper,uncertain,0.5968,low-confidence,292
+"TrashBox_train_dataset_subfolders/paper/paper/paper 543.jpg","paper/paper",paper,paper,paper,0.9997,,250
+"TrashBox_train_dataset_subfolders/paper/paper/paper 560.jpg","paper/paper",paper,paper,paper,0.9983,,209
+"TrashBox_train_dataset_subfolders/paper/paper/paper 576.jpg","paper/paper",paper,paper,uncertain,0.9862,unsupported-object,202
+"TrashBox_train_dataset_subfolders/paper/paper/paper 604.jpg","paper/paper",paper,paper,uncertain,0.9195,low-confidence,249
+"TrashBox_train_dataset_subfolders/paper/paper/paper 609.jpg","paper/paper",paper,paper,uncertain,0.9992,unsupported-object,224
+"TrashBox_train_dataset_subfolders/paper/paper/paper 62.jpg","paper/paper",paper,paper,uncertain,0.8864,low-confidence,294
+"TrashBox_train_dataset_subfolders/paper/paper/paper 630.jpg","paper/paper",paper,paper,paper,0.9988,,206
+"TrashBox_train_dataset_subfolders/paper/paper/paper 665.jpg","paper/paper",paper,paper,paper,0.9770,,232
+"TrashBox_train_dataset_subfolders/paper/paper/paper 678.jpg","paper/paper",paper,paper,paper,0.9686,,244
+"TrashBox_train_dataset_subfolders/paper/paper/paper 724.jpg","paper/paper",paper,paper,uncertain,0.9455,low-confidence,249
+"TrashBox_train_dataset_subfolders/paper/paper/paper 751.jpg","paper/paper",paper,paper,uncertain,0.8985,low-confidence,244
+"TrashBox_train_dataset_subfolders/paper/paper/paper 844.jpg","paper/paper",paper,paper,paper,0.9883,,232
+"TrashBox_train_dataset_subfolders/paper/paper/paper 88.jpg","paper/paper",paper,paper,paper,0.9899,,242
+"TrashBox_train_dataset_subfolders/paper/paper/paper 897.jpg","paper/paper",paper,paper,paper,1.0000,,254
+"TrashBox_train_dataset_subfolders/paper/paper/paper 90.jpg","paper/paper",paper,paper,uncertain,0.8978,unsupported-object,320
+"TrashBox_train_dataset_subfolders/paper/paper/paper 923.jpg","paper/paper",paper,paper,uncertain,0.9337,low-confidence,249
+"TrashBox_train_dataset_subfolders/paper/paper/paper 929.jpg","paper/paper",paper,paper,uncertain,0.6111,low-confidence,241
+"TrashBox_train_dataset_subfolders/paper/paper/paper 957.jpg","paper/paper",paper,paper,paper,0.9999,,201
+"TrashBox_train_dataset_subfolders/paper/paper/paper 966.jpg","paper/paper",paper,paper,paper,0.9957,,243
+"TrashBox_train_dataset_subfolders/paper/paper/paper 981.jpg","paper/paper",paper,paper,paper,0.9798,,256
+"TrashBox_train_dataset_subfolders/paper/paper/paper 993.jpg","paper/paper",paper,paper,uncertain,0.7815,low-confidence,244
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 100.jpg","paper/tetra pak",depends,depends,paper,0.9989,,286
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 106.jpg","paper/tetra pak",depends,depends,paper,0.9605,,238
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 112.jpg","paper/tetra pak",depends,depends,paper,0.9848,,252
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 131.jpg","paper/tetra pak",depends,depends,uncertain,0.9998,object-conflict,243
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 143.jpg","paper/tetra pak",depends,depends,paper,0.9997,,218
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 150.jpg","paper/tetra pak",depends,depends,paper,0.9800,,321
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 172.jpg","paper/tetra pak",depends,depends,uncertain,0.8682,low-confidence,248
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 190.jpg","paper/tetra pak",depends,depends,paper,0.9505,,241
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 204.jpg","paper/tetra pak",depends,depends,paper,0.9941,,256
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 205.jpg","paper/tetra pak",depends,depends,paper,0.9808,,308
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 206.jpg","paper/tetra pak",depends,depends,uncertain,0.9950,object-conflict,228
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 21.jpg","paper/tetra pak",depends,depends,uncertain,0.9217,low-confidence,207
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 211.jpg","paper/tetra pak",depends,depends,paper,0.9796,,202
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 222.jpg","paper/tetra pak",depends,depends,paper,0.9973,,275
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 229.jpg","paper/tetra pak",depends,depends,uncertain,0.9972,unsupported-object,272
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 24.jpg","paper/tetra pak",depends,depends,paper,1.0000,,230
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 288.jpg","paper/tetra pak",depends,depends,uncertain,1.0000,object-conflict,231
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 310.jpg","paper/tetra pak",depends,depends,uncertain,0.9940,object-conflict,232
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 323.jpg","paper/tetra pak",depends,depends,paper,0.9966,,273
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 324.jpg","paper/tetra pak",depends,depends,paper,0.9927,,348
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 33.jpg","paper/tetra pak",depends,depends,uncertain,0.9979,object-conflict,262
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 337.jpg","paper/tetra pak",depends,depends,uncertain,0.8691,low-confidence,233
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 35.jpg","paper/tetra pak",depends,depends,uncertain,0.9323,low-confidence,300
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 355.jpg","paper/tetra pak",depends,depends,paper,0.9854,,263
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 458.jpg","paper/tetra pak",depends,depends,uncertain,0.9357,low-confidence,266
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 463.jpg","paper/tetra pak",depends,depends,uncertain,0.9997,object-conflict,210
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 48.jpg","paper/tetra pak",depends,depends,uncertain,0.9390,object-conflict,209
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 481.jpg","paper/tetra pak",depends,depends,uncertain,0.9968,object-conflict,224
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 508.jpg","paper/tetra pak",depends,depends,paper,0.9570,,185
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 525.jpg","paper/tetra pak",depends,depends,paper,0.9985,,207
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 532.jpg","paper/tetra pak",depends,depends,paper,0.9930,,201
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 549.jpg","paper/tetra pak",depends,depends,uncertain,0.6575,low-confidence,188
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 574.jpg","paper/tetra pak",depends,depends,uncertain,0.9134,low-confidence,183
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 617.jpg","paper/tetra pak",depends,depends,paper,1.0000,,183
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 667.jpg","paper/tetra pak",depends,depends,uncertain,0.8749,low-confidence,203
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 676.jpg","paper/tetra pak",depends,depends,paper,0.9674,,260
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 681.jpg","paper/tetra pak",depends,depends,uncertain,0.9979,object-conflict,206
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 682.jpg","paper/tetra pak",depends,depends,paper,0.9789,,232
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 686.jpg","paper/tetra pak",depends,depends,paper,0.9614,,197
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 69.jpg","paper/tetra pak",depends,depends,uncertain,0.8226,object-conflict,370
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 7.jpg","paper/tetra pak",depends,depends,paper,0.9676,,232
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 715.jpg","paper/tetra pak",depends,depends,uncertain,0.7673,low-confidence,242
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 746.jpg","paper/tetra pak",depends,depends,paper,0.9924,,251
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 755.jpg","paper/tetra pak",depends,depends,paper,0.9852,,223
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 772.jpg","paper/tetra pak",depends,depends,paper,0.9996,,198
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 788.jpg","paper/tetra pak",depends,depends,uncertain,0.9403,object-conflict,286
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 79.jpg","paper/tetra pak",depends,depends,paper,0.9778,,230
+"TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 792.jpg","paper/tetra pak",depends,depends,paper,0.9995,,240
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 179.jpg","plastic/cigarette butt",trash,general,uncertain,0.6259,low-confidence,235
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 180.jpg","plastic/cigarette butt",trash,general,uncertain,0.6684,low-confidence,209
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 226.jpg","plastic/cigarette butt",trash,general,uncertain,0.5683,low-confidence,186
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 23.jpg","plastic/cigarette butt",trash,general,uncertain,0.7797,low-confidence,239
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 244.jpg","plastic/cigarette butt",trash,general,uncertain,0.4981,unsupported-object,239
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 265.jpg","plastic/cigarette butt",trash,general,uncertain,0.5899,low-confidence,240
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 271.jpg","plastic/cigarette butt",trash,general,general,0.9635,,234
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 273.jpg","plastic/cigarette butt",trash,general,general,0.9994,,244
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 285.jpg","plastic/cigarette butt",trash,general,uncertain,0.5883,low-confidence,250
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 292.jpg","plastic/cigarette butt",trash,general,uncertain,0.9876,unsupported-object,294
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 311.jpg","plastic/cigarette butt",trash,general,uncertain,0.8383,low-confidence,216
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 320.jpg","plastic/cigarette butt",trash,general,uncertain,0.6114,low-confidence,259
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 326.jpg","plastic/cigarette butt",trash,general,uncertain,0.6980,low-confidence,296
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 352.jpg","plastic/cigarette butt",trash,general,general,0.9770,,304
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 381.jpg","plastic/cigarette butt",trash,general,uncertain,0.8498,low-confidence,258
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 405.jpg","plastic/cigarette butt",trash,general,uncertain,0.5919,low-confidence,242
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 458.jpg","plastic/cigarette butt",trash,general,uncertain,0.7492,unsupported-object,250
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 46.jpg","plastic/cigarette butt",trash,general,uncertain,0.8232,unsupported-object,191
+"TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 48.jpg","plastic/cigarette butt",trash,general,uncertain,0.5871,low-confidence,180
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 1.jpg","plastic/plastic bags",depends,depends,uncertain,0.8067,low-confidence,198
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 113.jpg","plastic/plastic bags",depends,depends,uncertain,0.6064,low-confidence,210
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 142.jpg","plastic/plastic bags",depends,depends,uncertain,0.8080,low-confidence,244
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 155.jpg","plastic/plastic bags",depends,depends,uncertain,0.6066,low-confidence,268
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 168.jpg","plastic/plastic bags",depends,depends,general,0.9660,,241
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 18.jpg","plastic/plastic bags",depends,depends,uncertain,0.7587,low-confidence,321
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 209.jpg","plastic/plastic bags",depends,depends,uncertain,0.7733,low-confidence,280
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 263.jpg","plastic/plastic bags",depends,depends,uncertain,0.7617,low-confidence,240
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 347.jpg","plastic/plastic bags",depends,depends,uncertain,0.8277,low-confidence,255
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 348.jpg","plastic/plastic bags",depends,depends,uncertain,0.8151,low-confidence,234
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 362.jpg","plastic/plastic bags",depends,depends,uncertain,0.7782,low-confidence,379
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 382.jpg","plastic/plastic bags",depends,depends,uncertain,0.8250,low-confidence,235
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 407.jpg","plastic/plastic bags",depends,depends,uncertain,0.5510,low-confidence,215
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 448.jpg","plastic/plastic bags",depends,depends,general,0.9553,,461
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 460.jpg","plastic/plastic bags",depends,depends,uncertain,0.7553,low-confidence,264
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 483.jpg","plastic/plastic bags",depends,depends,uncertain,0.8975,object-conflict,231
+"TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 53.jpg","plastic/plastic bags",depends,depends,uncertain,0.8300,low-confidence,311
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 128.jpg","plastic/plastic bottles",plastic,plastic,uncertain,0.8602,low-confidence,323
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 172.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9639,,248
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 181.jpg","plastic/plastic bottles",plastic,plastic,plastic,1.0000,,227
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 188.jpg","plastic/plastic bottles",plastic,plastic,uncertain,0.8609,unsupported-object,216
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 192.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9849,,235
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 25.jpg","plastic/plastic bottles",plastic,plastic,uncertain,0.9463,low-confidence,199
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 307.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9995,,680
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 324.jpg","plastic/plastic bottles",plastic,plastic,uncertain,0.8868,low-confidence,570
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 328.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9714,,500
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 331.jpg","plastic/plastic bottles",plastic,plastic,uncertain,0.7749,low-confidence,650
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 350.jpg","plastic/plastic bottles",plastic,plastic,plastic,1.0000,,269
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 357.jpg","plastic/plastic bottles",plastic,plastic,plastic,1.0000,,235
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 361.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9952,,271
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 376.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9844,,352
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 398.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9943,,234
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 450.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9831,,189
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 460.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9993,,609
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 473.jpg","plastic/plastic bottles",plastic,plastic,plastic,1.0000,,289
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 478.jpg","plastic/plastic bottles",plastic,plastic,uncertain,0.9382,unsupported-object,286
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 48.jpg","plastic/plastic bottles",plastic,plastic,general,0.9736,,212
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 505.jpg","plastic/plastic bottles",plastic,plastic,uncertain,0.5999,low-confidence,399
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 51.jpg","plastic/plastic bottles",plastic,plastic,uncertain,0.8950,object-conflict,198
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 517.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9999,,734
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 523.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9999,,257
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 74.jpg","plastic/plastic bottles",plastic,plastic,plastic,1.0000,,214
+"TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 78.jpg","plastic/plastic bottles",plastic,plastic,plastic,0.9875,,191
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 1.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.3963,low-confidence,189
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 101.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.8221,low-confidence,246
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 137.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.7283,low-confidence,188
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 172.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.7446,low-confidence,181
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 180.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.4063,low-confidence,241
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 237.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.5290,low-confidence,263
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 242.jpg","plastic/plastic containers",plastic,plastic,plastic,0.9996,,286
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 321.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.3957,low-confidence,241
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 340.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.4451,unsupported-object,247
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 396.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.4262,low-confidence,236
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 428.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.9329,low-confidence,302
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 478.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.5212,low-confidence,265
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 519.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.6232,low-confidence,256
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 542.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.5626,low-confidence,247
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 567.jpg","plastic/plastic containers",plastic,plastic,other,0.9980,,240
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 57.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.5961,low-confidence,218
+"TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 81.jpg","plastic/plastic containers",plastic,plastic,uncertain,0.6378,low-confidence,257
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 107.jpg","plastic/plastic cups",depends,depends,uncertain,0.5161,object-conflict,205
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 141.jpg","plastic/plastic cups",depends,depends,uncertain,0.8949,low-confidence,275
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 201.jpg","plastic/plastic cups",depends,depends,uncertain,0.6177,low-confidence,231
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 223.jpg","plastic/plastic cups",depends,depends,uncertain,0.8979,low-confidence,283
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 262.jpg","plastic/plastic cups",depends,depends,uncertain,0.7303,low-confidence,222
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 265.jpg","plastic/plastic cups",depends,depends,uncertain,0.5685,low-confidence,181
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 289.jpg","plastic/plastic cups",depends,depends,uncertain,0.9346,low-confidence,182
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 29.jpg","plastic/plastic cups",depends,depends,uncertain,0.4618,low-confidence,185
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 30.jpg","plastic/plastic cups",depends,depends,uncertain,0.8587,low-confidence,200
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 319.jpg","plastic/plastic cups",depends,depends,uncertain,0.8724,low-confidence,233
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 329.jpg","plastic/plastic cups",depends,depends,uncertain,0.5841,low-confidence,230
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 348.jpg","plastic/plastic cups",depends,depends,uncertain,0.6936,low-confidence,294
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 359.jpg","plastic/plastic cups",depends,depends,uncertain,0.9185,low-confidence,220
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 405.jpg","plastic/plastic cups",depends,depends,uncertain,0.9905,object-conflict,249
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 464.jpg","plastic/plastic cups",depends,depends,uncertain,0.7779,low-confidence,241
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 77.jpg","plastic/plastic cups",depends,depends,uncertain,0.7220,low-confidence,243
+"TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 8.jpg","plastic/plastic cups",depends,depends,uncertain,0.7130,low-confidence,205

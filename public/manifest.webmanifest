@@ -1,0 +1,10 @@
+{
+  "name": "EcoSort AI",
+  "short_name": "EcoSort",
+  "description": "Recognises waste with your camera and recommends the right bin.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#e9efe9",
+  "theme_color": "#e9efe9",
+  "icons": [{ "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

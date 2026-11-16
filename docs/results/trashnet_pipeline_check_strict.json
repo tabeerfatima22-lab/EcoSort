@@ -1,0 +1,191 @@
+{
+  "run": "trashnet_pipeline_check_strict",
+  "date": "2026-11-16T14:34:03.004Z",
+  "mode": "strict",
+  "settings": {
+    "minBinProbability": 0.95,
+    "requireViewAgreement": true,
+    "unsupportedObjectVeto": 0.5,
+    "objectConflictVeto": 0.5,
+    "objectNameMin": 0.35
+  },
+  "simulated_brightness_factor": 1,
+  "waste_model": "smart_waste_mobilenetv2 1.3.1",
+  "object_model": "mobilenetv2-12 (ONNX Model Zoo, ImageNet-1k)",
+  "runtime": "onnxruntime-web (WebAssembly, 1 thread) on Node v22.23.4",
+  "images": {
+    "listed": 360,
+    "analysed": 360,
+    "unreadable": 0,
+    "in_scope": 360,
+    "out_of_scope": 0,
+    "depends_on_local_rules": 0
+  },
+  "without_safety_checks": {
+    "note": "Always answering with the most likely class (no thresholds). In-scope pictures only.",
+    "six_class_accuracy": 0.8777777777777778,
+    "bin_accuracy": 0.9083333333333333
+  },
+  "with_safety_checks": {
+    "answered_rate": 0.4777777777777778,
+    "accuracy_when_answered": 0.9941860465116279,
+    "wrong_bin_rate_of_all_items": 0.002777777777777778,
+    "uncertain_rate": 0.5222222222222223,
+    "mean_confidence_correct": 0.991197568717865,
+    "mean_confidence_wrong": 0.9697836339473724
+  },
+  "out_of_scope": {
+    "note": "Items the four bins do not cover. The correct behaviour is 'Uncertain'.",
+    "correctly_uncertain": null,
+    "sent_to_a_recycling_bin": null
+  },
+  "per_bin": {
+    "general": {
+      "items": 60,
+      "recommended": 7,
+      "correct": 7,
+      "precision": 1,
+      "recall": 0.11666666666666667
+    },
+    "plastic": {
+      "items": 60,
+      "recommended": 24,
+      "correct": 24,
+      "precision": 1,
+      "recall": 0.4
+    },
+    "paper": {
+      "items": 120,
+      "recommended": 85,
+      "correct": 85,
+      "precision": 1,
+      "recall": 0.7083333333333334
+    },
+    "other": {
+      "items": 120,
+      "recommended": 56,
+      "correct": 55,
+      "precision": 0.9821428571428571,
+      "recall": 0.4583333333333333
+    }
+  },
+  "by_folder": {
+    "dataset-resized/cardboard": {
+      "truth": "paper",
+      "n": 60,
+      "general": 0,
+      "plastic": 0,
+      "paper": 50,
+      "other": 0,
+      "uncertain": 10
+    },
+    "dataset-resized/glass": {
+      "truth": "other",
+      "n": 60,
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 24,
+      "uncertain": 36
+    },
+    "dataset-resized/metal": {
+      "truth": "other",
+      "n": 60,
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 31,
+      "uncertain": 29
+    },
+    "dataset-resized/paper": {
+      "truth": "paper",
+      "n": 60,
+      "general": 0,
+      "plastic": 0,
+      "paper": 35,
+      "other": 0,
+      "uncertain": 25
+    },
+    "dataset-resized/plastic": {
+      "truth": "plastic",
+      "n": 60,
+      "general": 0,
+      "plastic": 24,
+      "paper": 0,
+      "other": 1,
+      "uncertain": 35
+    },
+    "dataset-resized/trash": {
+      "truth": "general",
+      "n": 60,
+      "general": 7,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 53
+    }
+  },
+  "confusion_matrix_rows_truth_cols_answer": {
+    "general": {
+      "general": 7,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 53
+    },
+    "plastic": {
+      "general": 0,
+      "plastic": 24,
+      "paper": 0,
+      "other": 1,
+      "uncertain": 35
+    },
+    "paper": {
+      "general": 0,
+      "plastic": 0,
+      "paper": 85,
+      "other": 0,
+      "uncertain": 35
+    },
+    "other": {
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 55,
+      "uncertain": 65
+    },
+    "out-of-scope": {
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 0
+    },
+    "depends": {
+      "general": 0,
+      "plastic": 0,
+      "paper": 0,
+      "other": 0,
+      "uncertain": 0
+    }
+  },
+  "uncertain_reasons": {
+    "low-confidence": 138,
+    "unsupported-object": 44,
+    "object-conflict": 6
+  },
+  "inference_ms": {
+    "mean": 298.6089363249999,
+    "median": 247.14222399999926,
+    "p95": 632.198077999994,
+    "note": "Five model passes per picture on this computer's CPU; phones will differ."
+  },
+  "wrong_recommendations": [
+    {
+      "file": "dataset-resized/plastic/plastic307.jpg",
+      "truth": "plastic",
+      "answer": "other",
+      "confidence": 0.97
+    }
+  ]
+}
