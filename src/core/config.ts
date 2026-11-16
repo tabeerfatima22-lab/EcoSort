@@ -28,6 +28,8 @@ export const STRICT: DecisionSettings = {
 export const BALANCED: DecisionSettings = { ...STRICT, minBinProbability: 0.8 };
 
 export const MODES = { strict: STRICT, balanced: BALANCED } as const;
+/** Default for new users. Balanced answered 64.8% of held-out items, correct 92.3% of the time (docs/RESULTS.md). */
+export const DEFAULT_MODE = "balanced" as const;
 export type ModeName = keyof typeof MODES;
 
 /** Capture-quality guidance (mean brightness 0-255 of the analysed picture). */

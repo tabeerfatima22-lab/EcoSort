@@ -15,8 +15,11 @@ export interface ClassScore {
 }
 
 export interface Decision {
-  /** "recommend" only when every safety check passed. */
+  /** "recommend" only when every safety check passed, or when the picture matches an item the user tagged. */
   status: "recommend" | "uncertain";
+  /** Who decided the bin: the pretrained models, or the user's own tagged item. */
+  source: "model" | "taught";
+  taught?: { id: string; name: string; similarity: number; note?: string };
   reason?: UncertainReason;
   /** Human-readable explanation of an uncertain result. */
   detail?: string;
@@ -79,7 +82,7 @@ export function decide(wasteViews: ArrayLike<number>[], objectProbs: ArrayLike<n
       ? { name: known.name, label: IMAGENET_LABELS[best], probability: objectProbs[best], note: known.note }
       : undefined;
 
-  const base = { bin, material, binProbability, binProbabilities, ranking, viewsAgreeing, viewCount: wasteViews.length, object, objectTop, unsupportedMass };
+  const base = { source: "model" as const, bin, material, binProbability, binProbabilities, ranking, viewsAgreeing, viewCount: wasteViews.length, object, objectTop, unsupportedMass };
 
   if (unsupportedMass >= settings.unsupportedObjectVeto) {
     const group = [...groupMass.entries()].sort((a, b) => b[1] - a[1])[0][0];

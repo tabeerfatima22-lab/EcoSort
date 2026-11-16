@@ -62,11 +62,17 @@ export class WasteModel {
   }
 
   async predict(input: Float32Array): Promise<Float32Array> {
+    return (await this.run(input)).probs;
+  }
+
+  /** Probabilities plus the 1280 pooled features (present when the model has a "features" output). */
+  async run(input: Float32Array): Promise<{ probs: Float32Array; features: Float32Array | null }> {
     const tensor = new this.ort.Tensor("float32", input, [1, 224, 224, 3]);
     const out = await this.session.run({ [this.meta.input.name]: tensor });
     const probs = Float32Array.from(out[this.meta.output.name].data as ArrayLike<number>);
     if (probs.length !== 6) throw new Error("Unexpected waste model output size.");
-    return probs;
+    const f = out["features"];
+    return { probs, features: f ? Float32Array.from(f.data as ArrayLike<number>) : null };
   }
 }
 
@@ -94,9 +100,14 @@ export class ObjectModel {
   }
 
   async predict(input: Float32Array): Promise<Float32Array> {
+    return (await this.run(input)).probs;
+  }
+
+  /** ImageNet probabilities plus 1280 pooled features (present when the model has a "features" output). */
+  async run(input: Float32Array): Promise<{ probs: Float32Array; features: Float32Array | null }> {
     const tensor = new this.ort.Tensor("float32", input, [1, 3, 224, 224]);
     const out = await this.session.run({ [this.session.inputNames[0]]: tensor });
-    const logits = out[this.session.outputNames[0]].data as ArrayLike<number>;
+    const logits = out["output"].data as ArrayLike<number>;
     if (logits.length !== 1000) throw new Error("Unexpected object model output size.");
     let max = -Infinity;
     for (let i = 0; i < 1000; i++) if (logits[i] > max) max = logits[i];
@@ -107,7 +118,8 @@ export class ObjectModel {
       sum += probs[i];
     }
     for (let i = 0; i < 1000; i++) probs[i] /= sum;
-    return probs;
+    const f = out["features"];
+    return { probs, features: f ? Float32Array.from(f.data as ArrayLike<number>) : null };
   }
 }
 

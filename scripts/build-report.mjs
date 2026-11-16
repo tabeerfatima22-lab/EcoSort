@@ -41,6 +41,7 @@ const measured = {
   heldout: { strict: brief(strict), balanced: brief(balanced) },
   pipelineCheck: brief(check),
   brightness: bright,
+  teach: fs.existsSync("docs/teach/results.json") ? JSON.parse(fs.readFileSync("docs/teach/results.json", "utf8")).chosen : null,
 };
 fs.writeFileSync("src/measured.json", JSON.stringify(measured, null, 2) + "\n");
 

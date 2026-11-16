@@ -13,6 +13,7 @@ no server, and no picture leaves the device.
 - Experiment procedure and recording tables: [docs/EXPERIMENT.md](docs/EXPERIMENT.md)
 - Why this model, and what else was considered: [docs/MODEL_SELECTION.md](docs/MODEL_SELECTION.md)
 - What was tested, and what was not: [docs/QA_REPORT.md](docs/QA_REPORT.md)
+- Teaching it your own items: [docs/TEACH.md](docs/TEACH.md)
 
 ## Read this first: how reliable is it?
 
@@ -22,6 +23,14 @@ to answer. EcoSort therefore only recommends a bin when several checks agree, an
 answers Uncertain. In Strict mode it gave a bin for 49.6% of items and was right for 96.8% of
 those; 1.6% of all items were sent to a wrong bin. Full figures are in
 [docs/RESULTS.md](docs/RESULTS.md); the app's About page shows the same numbers.
+
+Two things help a lot with your own items:
+
+- **Default mode is Balanced** (80% threshold). It answered 64.8% of held-out items and was
+  right 92.3% of the time. Strict is still in Settings.
+- **Teach it.** After any scan, press *Tell EcoSort what this is* and pick the bin. It
+  then recognises that item next time (see [docs/TEACH.md](docs/TEACH.md)). When it is
+  Uncertain it also shows its best guess.
 
 In practice this means:
 
@@ -119,7 +128,7 @@ camera frame or photo
 
 ### Settings in the app
 
-- **Strict / Balanced:** Strict needs 95% and gives fewer wrong answers; Balanced needs 80%.
+- **Balanced / Strict:** Balanced (default) needs 80%; Strict needs 95% and gives fewer wrong answers but more Uncertain.
 - **Scan automatically:** a light check runs about twice a second; when three checks in a
   row agree, the full analysis runs on a fresh frame.
 - **Speak the result:** uses the browser's built-in voice.

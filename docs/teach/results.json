@@ -1,0 +1,72 @@
+{
+ "note": "Teach-it matching, object-model features, cosine similarity. See docs/TEACH.md.",
+ "same_item": {
+  "0.75": {
+   "queries": 594,
+   "items": 198,
+   "found": 0.98989898989899,
+   "matched_other_item": 0.0016835016835016834,
+   "never_tagged_falsely_matched": 0.1734006734006734,
+   "never_tagged_matched_to_other_material_folder": 0.016835016835016835
+  },
+  "0.8": {
+   "queries": 594,
+   "items": 198,
+   "found": 0.9730639730639731,
+   "matched_other_item": 0.0,
+   "never_tagged_falsely_matched": 0.026936026936026935,
+   "never_tagged_matched_to_other_material_folder": 0.005050505050505051
+  },
+  "0.82": {
+   "queries": 594,
+   "items": 198,
+   "found": 0.9612794612794613,
+   "matched_other_item": 0.0,
+   "never_tagged_falsely_matched": 0.013468013468013467,
+   "never_tagged_matched_to_other_material_folder": 0.005050505050505051
+  },
+  "0.85": {
+   "queries": 594,
+   "items": 198,
+   "found": 0.9343434343434344,
+   "matched_other_item": 0.0,
+   "never_tagged_falsely_matched": 0.0016835016835016834,
+   "never_tagged_matched_to_other_material_folder": 0.0016835016835016834
+  },
+  "0.9": {
+   "queries": 594,
+   "items": 198,
+   "found": 0.7710437710437711,
+   "matched_other_item": 0.0,
+   "never_tagged_falsely_matched": 0.0,
+   "never_tagged_matched_to_other_material_folder": 0.0
+  }
+ },
+ "same_type": {},
+ "chosen": {
+  "threshold": 0.82,
+  "sameItemFound": 0.9612794612794613,
+  "wrongItem": 0.0,
+  "falseMatch": 0.013468013468013467
+ },
+ "same_type_raw_output": [
+  "obj   k=5 T=0.00: right 0.469 wrong 0.143 | unknown falsely matched 0.413",
+  "obj   k=5 T=0.60: right 0.454 wrong 0.130 | unknown falsely matched 0.367",
+  "obj   k=5 T=0.70: right 0.277 wrong 0.048 | unknown falsely matched 0.092",
+  "obj   k=5 T=0.75: right 0.117 wrong 0.012 | unknown falsely matched 0.023",
+  "obj   k=5 T=0.80: right 0.029 wrong 0.003 | unknown falsely matched 0.003",
+  "obj   k=5 T=0.85: right 0.007 wrong 0.000 | unknown falsely matched 0.001",
+  "waste k=5 T=0.00: right 0.496 wrong 0.185 | unknown falsely matched 0.509",
+  "waste k=5 T=0.60: right 0.182 wrong 0.025 | unknown falsely matched 0.035",
+  "waste k=5 T=0.70: right 0.030 wrong 0.002 | unknown falsely matched 0.003",
+  "waste k=5 T=0.75: right 0.009 wrong 0.001 | unknown falsely matched 0.001",
+  "waste k=5 T=0.80: right 0.003 wrong 0.000 | unknown falsely matched 0.000",
+  "waste k=5 T=0.85: right 0.001 wrong 0.000 | unknown falsely matched 0.000",
+  "both  k=5 T=0.00: right 0.508 wrong 0.139 | unknown falsely matched 0.451",
+  "both  k=5 T=0.60: right 0.351 wrong 0.059 | unknown falsely matched 0.127",
+  "both  k=5 T=0.70: right 0.077 wrong 0.007 | unknown falsely matched 0.008",
+  "both  k=5 T=0.75: right 0.023 wrong 0.001 | unknown falsely matched 0.002",
+  "both  k=5 T=0.80: right 0.006 wrong 0.000 | unknown falsely matched 0.001",
+  "both  k=5 T=0.85: right 0.001 wrong 0.000 | unknown falsely matched 0.000"
+ ]
+}

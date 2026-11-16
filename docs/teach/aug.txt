@@ -1,0 +1,198 @@
+TrashBox_train_dataset_subfolders/cardboard/cardboard 633.jpg
+TrashBox_train_dataset_subfolders/cardboard/cardboard 1578.jpg
+TrashBox_train_dataset_subfolders/cardboard/cardboard 1197.jpg
+TrashBox_train_dataset_subfolders/cardboard/cardboard 1647.jpg
+TrashBox_train_dataset_subfolders/cardboard/cardboard 1455.jpg
+TrashBox_train_dataset_subfolders/cardboard/cardboard 385.jpg
+TrashBox_train_dataset_subfolders/cardboard/cardboard 2111.jpg
+TrashBox_train_dataset_subfolders/cardboard/cardboard 1082.jpg
+TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 446.jpg
+TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 198.jpg
+TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 505.jpg
+TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 1.jpg
+TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 369.jpg
+TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 426.jpg
+TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 520.jpg
+TrashBox_train_dataset_subfolders/e-waste/electrical cables/electrical_cables 410.jpg
+TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 542.jpg
+TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 336.jpg
+TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 350.jpg
+TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 477.jpg
+TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 599.jpg
+TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 72.jpg
+TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 567.jpg
+TrashBox_train_dataset_subfolders/e-waste/electronic chips/electronic_chip 266.jpg
+TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 13.jpg
+TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 23.jpg
+TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 439.jpg
+TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 413.jpg
+TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 132.jpg
+TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 233.jpg
+TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 272.jpg
+TrashBox_train_dataset_subfolders/e-waste/laptops/laptops 492.jpg
+TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 403.jpg
+TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 441.jpg
+TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 321.jpg
+TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 393.jpg
+TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 204.jpg
+TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 379.jpg
+TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 756.jpg
+TrashBox_train_dataset_subfolders/e-waste/small appliances/small_appliances 679.jpg
+TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 232.jpg
+TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 134.jpg
+TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 97.jpg
+TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 175.jpg
+TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 109.jpg
+TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 19.jpg
+TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 89.jpg
+TrashBox_train_dataset_subfolders/e-waste/smartphones/smartphones 47.jpg
+TrashBox_train_dataset_subfolders/glass/glass 745.jpg
+TrashBox_train_dataset_subfolders/glass/glass 1359.jpg
+TrashBox_train_dataset_subfolders/glass/glass 1417.jpg
+TrashBox_train_dataset_subfolders/glass/glass 1800.jpg
+TrashBox_train_dataset_subfolders/glass/glass 348.jpg
+TrashBox_train_dataset_subfolders/glass/glass 2211.jpg
+TrashBox_train_dataset_subfolders/glass/glass 767.jpg
+TrashBox_train_dataset_subfolders/glass/glass 921.jpg
+TrashBox_train_dataset_subfolders/medical/gloves/gloves 165.jpg
+TrashBox_train_dataset_subfolders/medical/gloves/gloves 337.jpg
+TrashBox_train_dataset_subfolders/medical/gloves/gloves 3.jpg
+TrashBox_train_dataset_subfolders/medical/gloves/gloves 25.jpg
+TrashBox_train_dataset_subfolders/medical/gloves/gloves 390.jpg
+TrashBox_train_dataset_subfolders/medical/gloves/gloves 299.jpg
+TrashBox_train_dataset_subfolders/medical/gloves/gloves 244.jpg
+TrashBox_train_dataset_subfolders/medical/gloves/gloves 441.jpg
+TrashBox_train_dataset_subfolders/medical/masks/masks 134.jpg
+TrashBox_train_dataset_subfolders/medical/masks/masks 66.jpg
+TrashBox_train_dataset_subfolders/medical/masks/masks 98.jpg
+TrashBox_train_dataset_subfolders/medical/masks/masks 453.jpg
+TrashBox_train_dataset_subfolders/medical/masks/masks 113.jpg
+TrashBox_train_dataset_subfolders/medical/masks/masks 280.jpg
+TrashBox_train_dataset_subfolders/medical/masks/masks 328.jpg
+TrashBox_train_dataset_subfolders/medical/masks/masks 25.jpg
+TrashBox_train_dataset_subfolders/medical/medicines/medicines 139.jpg
+TrashBox_train_dataset_subfolders/medical/medicines/medicines 125.jpg
+TrashBox_train_dataset_subfolders/medical/medicines/medicines 112.jpg
+TrashBox_train_dataset_subfolders/medical/medicines/medicines 399.jpg
+TrashBox_train_dataset_subfolders/medical/medicines/medicines 263.jpg
+TrashBox_train_dataset_subfolders/medical/medicines/medicines 313.jpg
+TrashBox_train_dataset_subfolders/medical/medicines/medicines 77.jpg
+TrashBox_train_dataset_subfolders/medical/medicines/medicines 476.jpg
+TrashBox_train_dataset_subfolders/medical/syringe/syringe 315.jpg
+TrashBox_train_dataset_subfolders/medical/syringe/syringe 413.jpg
+TrashBox_train_dataset_subfolders/medical/syringe/syringe 95.jpg
+TrashBox_train_dataset_subfolders/medical/syringe/syringe 167.jpg
+TrashBox_train_dataset_subfolders/medical/syringe/syringe 233.jpg
+TrashBox_train_dataset_subfolders/medical/syringe/syringe 311.jpg
+TrashBox_train_dataset_subfolders/medical/syringe/syringe 421.jpg
+TrashBox_train_dataset_subfolders/medical/syringe/syringe 73.jpg
+TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 343.jpg
+TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 736.jpg
+TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 744.jpg
+TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 7.jpg
+TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 165.jpg
+TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 182.jpg
+TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 762.jpg
+TrashBox_train_dataset_subfolders/metal/beverage cans/beverage_cans 219.jpg
+TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 345.jpg
+TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 366.jpg
+TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 165.jpg
+TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 176.jpg
+TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 117.jpg
+TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 111.jpg
+TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 133.jpg
+TrashBox_train_dataset_subfolders/metal/construction scrap/construction_scrap 149.jpg
+TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 138.jpg
+TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 334.jpg
+TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 276.jpg
+TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 388.jpg
+TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 186.jpg
+TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 390.jpg
+TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 270.jpg
+TrashBox_train_dataset_subfolders/metal/metal containers/metal_containers 439.jpg
+TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 26.jpg
+TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 20.jpg
+TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 21.jpg
+TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 13.jpg
+TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 35.jpg
+TrashBox_train_dataset_subfolders/metal/other metal objects/metal_objects 16.jpg
+TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 240.jpg
+TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 93.jpg
+TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 262.jpg
+TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 393.jpg
+TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 268.jpg
+TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 40.jpg
+TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 172.jpg
+TrashBox_train_dataset_subfolders/metal/spray cans/spray_cans 61.jpg
+TrashBox_train_dataset_subfolders/paper/news paper/news_paper 62.jpg
+TrashBox_train_dataset_subfolders/paper/news paper/news_paper 2.jpg
+TrashBox_train_dataset_subfolders/paper/news paper/news_paper 36.jpg
+TrashBox_train_dataset_subfolders/paper/news paper/news_paper 114.jpg
+TrashBox_train_dataset_subfolders/paper/news paper/news_paper 199.jpg
+TrashBox_train_dataset_subfolders/paper/news paper/news_paper 84.jpg
+TrashBox_train_dataset_subfolders/paper/news paper/news_paper 126.jpg
+TrashBox_train_dataset_subfolders/paper/news paper/news_paper 124.jpg
+TrashBox_train_dataset_subfolders/paper/paper/paper 923.jpg
+TrashBox_train_dataset_subfolders/paper/paper/paper 366.jpg
+TrashBox_train_dataset_subfolders/paper/paper/paper 70.jpg
+TrashBox_train_dataset_subfolders/paper/paper/paper 52.jpg
+TrashBox_train_dataset_subfolders/paper/paper/paper 279.jpg
+TrashBox_train_dataset_subfolders/paper/paper/paper 560.jpg
+TrashBox_train_dataset_subfolders/paper/paper/paper 825.jpg
+TrashBox_train_dataset_subfolders/paper/paper/paper 409.jpg
+TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 203.jpg
+TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 621.jpg
+TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 175.jpg
+TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 174.jpg
+TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 119.jpg
+TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 206.jpg
+TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 562.jpg
+TrashBox_train_dataset_subfolders/paper/paper cups/paper_cups 336.jpg
+TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 24.jpg
+TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 100.jpg
+TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 79.jpg
+TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 376.jpg
+TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 457.jpg
+TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 33.jpg
+TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 288.jpg
+TrashBox_train_dataset_subfolders/paper/tetra pak/tetra_pak 686.jpg
+TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 23.jpg
+TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 292.jpg
+TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 457.jpg
+TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 485.jpg
+TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 209.jpg
+TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 399.jpg
+TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 326.jpg
+TrashBox_train_dataset_subfolders/plastic/cigarette butt/cigarette_butt 405.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 460.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 252.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 407.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 486.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 142.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 52.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 483.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bags/plastic_bag 347.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 396.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 511.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 523.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 78.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 27.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 206.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 198.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic bottles/plastic_bottle 376.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 91.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 151.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 445.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 172.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 101.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 57.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 165.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic containers/plastic_containers 437.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 61.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 155.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 120.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 441.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 348.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 262.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 27.jpg
+TrashBox_train_dataset_subfolders/plastic/plastic cups/plastic_cups 432.jpg

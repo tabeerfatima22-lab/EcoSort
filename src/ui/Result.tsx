@@ -8,22 +8,25 @@ const pct = (v: number) => (v >= 0.995 ? "over 99%" : `${Math.round(v * 100)}%`)
 
 export function spokenSummary(a: Analysis): string {
   const d = a.decision;
-  if (d.status === "uncertain") return "Uncertain. Please check manually.";
+  if (d.status === "uncertain") return d.reason === "unsupported-object" ? "Uncertain. Please check manually." : `Uncertain. Best guess ${BINS[d.bin!].spoken}. Please check manually.`;
+  if (d.source === "taught") return `${d.taught!.name}. Put it in ${BINS[d.bin!].spoken}.`;
   return `${MATERIAL_NAME[d.material]}. Put it in ${BINS[d.bin!].spoken}.`;
 }
 
 interface Props {
   analysis: Analysis;
+  onTeach: () => void;
   onRescan: () => void;
   onRecord: () => void;
   clean: "yes" | "no" | null;
   onClean: (v: "yes" | "no") => void;
 }
 
-export function Result({ analysis, onRescan, onRecord, clean, onClean }: Props) {
+export function Result({ analysis, onTeach, onRescan, onRecord, clean, onClean }: Props) {
   const [showDetails, setShowDetails] = useState(false);
   const d = analysis.decision;
   const recommended = d.status === "recommend";
+  const taught = d.source === "taught" ? d.taught! : null;
   const dirty = recommended && d.bin !== "general" && clean === "no";
   const shownBin: BinId | null = recommended ? (dirty ? "general" : d.bin!) : null;
   const tips: string[] = [];
@@ -37,7 +40,7 @@ export function Result({ analysis, onRescan, onRecord, clean, onClean }: Props) 
         <div className="slab" style={{ background: BINS[shownBin].color, color: BINS[shownBin].ink }}>
           <BinIcon bin={shownBin} size={56} />
           <div>
-            <p className="slab-lead">{dirty ? "Because it is not clean, put it in" : "Put it in"}</p>
+            <p className="slab-lead">{dirty ? "Because it is not clean, put it in" : taught ? `Your item "${taught.name}" goes in` : "Put it in"}</p>
             <p className="slab-bin">{BINS[shownBin].name}</p>
           </div>
         </div>
@@ -51,21 +54,35 @@ export function Result({ analysis, onRescan, onRecord, clean, onClean }: Props) 
         </div>
       )}
 
+      {!recommended && (
+        <>
+          {d.reason !== "unsupported-object" && <div className="guess">
+            <span>Best guess</span>
+            <span className="chip" style={{ background: BINS[d.bin!].color, color: BINS[d.bin!].ink }}>
+              <BinIcon bin={d.bin!} size={18} />
+              {BINS[d.bin!].short}
+            </span>
+            <span>{pct(d.binProbability)}</span>
+          </div>}
+          <button className="btn btn-teach btn-big" onClick={onTeach}>Tell EcoSort what this is</button>
+        </>
+      )}
+
       <dl className="facts">
         <div>
           <dt>Object</dt>
-          <dd>{d.object ? d.object.name : "Not named with confidence"}</dd>
+          <dd>{taught ? taught.name : d.object ? d.object.name : "Not named with confidence"}</dd>
         </div>
         <div>
           <dt>Material</dt>
-          <dd>{recommended ? MATERIAL_NAME[d.material] : `Possibly ${MATERIAL_NAME[d.material].toLowerCase()}`}</dd>
+          <dd>{taught ? "Tagged by you" : recommended ? MATERIAL_NAME[d.material] : `Possibly ${MATERIAL_NAME[d.material].toLowerCase()}`}</dd>
         </div>
         <div>
-          <dt>Confidence</dt>
+          <dt>{taught ? "Match" : "Confidence"}</dt>
           <dd>
-            {pct(d.binProbability)}
+            {pct(taught ? taught.similarity : d.binProbability)}
             <span className="meter" aria-hidden="true">
-              <span style={{ width: `${Math.round(d.binProbability * 100)}%` }} />
+              <span style={{ width: `${Math.round((taught ? taught.similarity : d.binProbability) * 100)}%` }} />
             </span>
           </dd>
         </div>
@@ -73,8 +90,10 @@ export function Result({ analysis, onRescan, onRecord, clean, onClean }: Props) 
 
       {recommended ? (
         <>
-          <p className="instruction">{dirty ? "Food and liquid spoil a whole batch of recycling. Rinse it if you can, then scan it again." : INSTRUCTION[d.material]}</p>
-          {d.object?.note && <p className="note">{d.object.note}</p>}
+          <p className="instruction">
+            {dirty ? "Food and liquid spoil a whole batch of recycling. Rinse it if you can, then scan it again." : taught ? taught.note ?? "This is the bin you chose for this item." : INSTRUCTION[d.material]}
+          </p>
+          {!taught && d.object?.note && <p className="note">{d.object.note}</p>}
           {d.bin !== "general" && clean === null && (
             <div className="clean">
               <p>{CLEAN_QUESTION[d.bin as Exclude<BinId, "general">]}</p>
@@ -96,6 +115,7 @@ export function Result({ analysis, onRescan, onRecord, clean, onClean }: Props) 
 
       <div className="row actions">
         <button className="btn btn-primary" onClick={onRescan}>Scan another item</button>
+        {recommended && <button className="btn btn-quiet" onClick={onTeach}>{taught ? "Add this photo to the item" : "Wrong? Correct it"}</button>}
         <button className="btn btn-quiet" onClick={onRecord}>Record for experiment</button>
       </div>
 
@@ -123,6 +143,7 @@ export function Result({ analysis, onRescan, onRecord, clean, onClean }: Props) 
               </li>
             ))}
           </ol>
+          {taught && <p>Matched your tagged item with similarity {(taught.similarity * 100).toFixed(1)}% (needs at least 82%). The models alone said: {d.ranking[0] ? MATERIAL_NAME[d.ranking[0].label] : ""}.</p>}
           <p>
             Analysis took {Math.round(analysis.inferenceMs)} ms on this device. Picture brightness {Math.round(analysis.brightness)} of 255.
           </p>

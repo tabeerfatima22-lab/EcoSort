@@ -1,6 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { BINS, BIN_ORDER } from "./core/bins";
-import { MODES, type ModeName } from "./core/config";
+import { DEFAULT_MODE, MODES, type ModeName } from "./core/config";
+import type { BinId } from "./core/bins";
+import { normalise, type TaughtItem } from "./core/memory";
+import { exportTaught, importTaught, newId, readTaught, writeTaught } from "./app/memoryStore";
+import { MyItems, TeachSheet } from "./ui/Teach";
 import { toBinProbabilities, topBin } from "./core/decision";
 import { analyse, quickLook, type Analysis } from "./core/pipeline";
 import type { RgbaImage } from "./core/resize";
@@ -14,7 +18,7 @@ import { DEFAULT_CONDITIONS, ExperimentView, RecordForm, type Conditions } from 
 import { BinIcon } from "./ui/icons";
 import { Result, spokenSummary } from "./ui/Result";
 
-type View = "scan" | "experiment" | "about";
+type View = "scan" | "items" | "experiment" | "about";
 type Phase = "aim" | "analysing" | "result";
 interface Settings {
   mode: ModeName;
@@ -22,11 +26,12 @@ interface Settings {
   continuous: boolean;
   snapshotUrl: string;
 }
-const DEFAULTS: Settings = { mode: "strict", voice: true, continuous: false, snapshotUrl: "" };
+const DEFAULTS: Settings = { mode: DEFAULT_MODE, voice: true, continuous: false, snapshotUrl: "" };
+const SETTINGS_KEY = "ecosort.settings.v2";
 
 function loadSettings(): Settings {
   try {
-    return { ...DEFAULTS, ...JSON.parse(localStorage.getItem("ecosort.settings.v1") ?? "{}") };
+    return { ...DEFAULTS, ...JSON.parse(localStorage.getItem(SETTINGS_KEY) ?? "{}") };
   } catch {
     return DEFAULTS;
   }
@@ -55,6 +60,10 @@ export function App() {
   const [recording, setRecording] = useState(false);
   const [conditions, setConditions] = useState<Conditions>(DEFAULT_CONDITIONS);
   const [log, setLog] = useState<LogEntry[]>(readLog);
+  const [taught, setTaught] = useState<TaughtItem[]>(readTaught);
+  const [teaching, setTeaching] = useState(false);
+  const [thumb, setThumb] = useState<string | null>(null);
+  const [itemsMessage, setItemsMessage] = useState<string | null>(null);
 
   const videoRef = useRef<HTMLVideoElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -62,7 +71,7 @@ export function App() {
   const busy = useRef(false);
 
   useEffect(() => {
-    localStorage.setItem("ecosort.settings.v1", JSON.stringify(settings));
+    localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
   }, [settings]);
 
   /* Load the models once (again if the user presses Try again). */
@@ -124,6 +133,7 @@ export function App() {
     (result: Analysis, picture: RgbaImage, from: string) => {
       setAnalysis(result);
       setStill(toDataUrl(picture));
+      setThumb(toDataUrl(picture, 160));
       setSource(from);
       setClean(null);
       setPhase("result");
@@ -144,7 +154,7 @@ export function App() {
       try {
         const picture = await getPicture();
         await wait(30); // let the "Analysing" state paint before the models run
-        const result = await analyse(picture, { x: 0, y: 0, width: picture.width, height: picture.height }, engine, MODES[settings.mode]);
+        const result = await analyse(picture, { x: 0, y: 0, width: picture.width, height: picture.height }, engine, MODES[settings.mode], taught);
         finish(result, picture, from);
       } catch (error) {
         setPhase("aim");
@@ -153,7 +163,7 @@ export function App() {
         busy.current = false;
       }
     },
-    [engine, settings.mode, finish],
+    [engine, settings.mode, finish, taught],
   );
 
   /** Takes three frames a moment apart and keeps the sharpest, to avoid motion blur. */
@@ -233,6 +243,39 @@ export function App() {
     };
   }, [settings.continuous, settings.mode, engine, camera, phase, view, run, sharpestFrame]);
 
+  const updateTaught = (next: TaughtItem[], ok: string) => {
+    const problem = writeTaught(next);
+    if (problem) {
+      setMessage(problem);
+      setItemsMessage(problem);
+      return false;
+    }
+    setTaught(next);
+    setMessage(ok);
+    setItemsMessage(ok);
+    return true;
+  };
+
+  const saveTeach = (target: { itemId: string } | { name: string; bin: BinId; note?: string }) => {
+    if (!analysis?.features || !thumb) {
+      setMessage("This picture could not be tagged. Scan the item again.");
+      setTeaching(false);
+      return;
+    }
+    const example = { id: newId(), features: normalise(analysis.features), thumb, addedAt: new Date().toISOString() };
+    let next: TaughtItem[];
+    let ok: string;
+    if ("itemId" in target) {
+      next = taught.map((i) => (i.id === target.itemId ? { ...i, examples: [...i.examples, example] } : i));
+      const it = taught.find((i) => i.id === target.itemId)!;
+      ok = `Added a photo to "${it.name}". It now has ${it.examples.length + 1} photos.`;
+    } else {
+      next = [...taught, { id: newId(), name: target.name, bin: target.bin, note: target.note, examples: [example] }];
+      ok = `Saved "${target.name}". Scan it from another side and add that photo too.`;
+    }
+    if (updateTaught(next, ok)) setTeaching(false);
+  };
+
   const saveRecord = (item: string, truth: LogEntry["truth"]) => {
     if (!analysis || !engine) return;
     const d = analysis.decision;
@@ -244,7 +287,7 @@ export function App() {
       answer: d.status === "recommend" ? d.bin! : "uncertain",
       material: d.material,
       confidence: d.binProbability,
-      reason: d.reason ?? "",
+      reason: d.source === "taught" ? `matched your item: ${d.taught!.name}` : d.reason ?? "",
       ...conditions,
       source,
       mode: settings.mode,
@@ -288,9 +331,9 @@ export function App() {
           <span>EcoSort AI</span>
         </a>
         <nav aria-label="Sections">
-          {(["scan", "experiment", "about"] as View[]).map((v) => (
+          {(["scan", "items", "experiment", "about"] as View[]).map((v) => (
             <button key={v} className={view === v ? "tab on" : "tab"} aria-current={view === v ? "page" : undefined} onClick={() => setView(v)}>
-              {v === "scan" ? "Scan" : v === "experiment" ? `Experiment${log.length ? ` (${log.length})` : ""}` : "About"}
+              {v === "scan" ? "Scan" : v === "items" ? `My items${taught.length ? ` (${taught.length})` : ""}` : v === "experiment" ? `Experiment${log.length ? ` (${log.length})` : ""}` : "About"}
             </button>
           ))}
         </nav>
@@ -341,7 +384,7 @@ export function App() {
                 <button className="btn btn-primary" onClick={() => setAttempt((n) => n + 1)}>Try again</button>
               </div>
             ) : phase === "result" && analysis ? (
-              <Result analysis={analysis} onRescan={rescan} onRecord={() => setRecording(true)} clean={clean} onClean={setClean} />
+              <Result analysis={analysis} onTeach={() => setTeaching(true)} onRescan={rescan} onRecord={() => setRecording(true)} clean={clean} onClean={setClean} />
             ) : (
               <>
                 <h1 className="headline">Which bin does it go in?</h1>
@@ -401,6 +444,25 @@ export function App() {
         </main>
       )}
 
+      {view === "items" && (
+        <MyItems
+          items={taught}
+          message={itemsMessage}
+          onRemoveItem={(id) => updateTaught(taught.filter((i) => i.id !== id), "Item removed.")}
+          onRemovePhoto={(itemId, photoId) =>
+            updateTaught(
+              taught.map((i) => (i.id === itemId ? { ...i, examples: i.examples.filter((e) => e.id !== photoId) } : i)).filter((i) => i.examples.length > 0),
+              "Photo removed.",
+            )
+          }
+          onExport={() => exportTaught(taught)}
+          onImport={(f) =>
+            importTaught(f, taught)
+              .then((next) => updateTaught(next, `Imported. You now have ${next.length} items.`))
+              .catch((e: Error) => setItemsMessage(e.message))
+          }
+        />
+      )}
       {view === "experiment" && (
         <ExperimentView
           entries={log}
@@ -410,6 +472,15 @@ export function App() {
       )}
       {view === "about" && <About engine={engine} />}
 
+      {teaching && analysis && thumb && (
+        <TeachSheet
+          thumb={thumb}
+          items={taught}
+          suggestedBin={analysis.decision.bin}
+          onSave={saveTeach}
+          onCancel={() => setTeaching(false)}
+        />
+      )}
       {recording && analysis && (
         <RecordForm analysis={analysis} conditions={conditions} onConditions={setConditions} onSave={saveRecord} onCancel={() => setRecording(false)} />
       )}

@@ -22,7 +22,9 @@ What was actually tested before delivery, how, and what could not be tested.
 | 14 | No camera available | Chrome started with no camera device | App showed "No camera was found" with the upload fallback |
 | 15 | Model file missing | Model request forced to return 404 | App showed "A model file is missing from this site" with a Try again button |
 | 16 | Mobile layout | 390 x 844 viewport with touch; checked for horizontal overflow and reviewed screenshots | No overflow; result visible without scrolling past the picture |
-| 17 | Type safety and build | `tsc --noEmit` and `vite build` | Passed |
+| 17 | Teach it: tag an item, then rescan an altered photo of it | Headless Chrome, 390 x 844: tagged a server photo as "Old router box" (general waste), rescanned a cropped, mirrored, darker copy | Matched the tagged item (86% similarity); unrelated bottle and can were not affected; item survived a page reload |
+| 18 | Teach it: add a second photo, My items page, layout | Same session | Second photo saved; My items listed 1 item, 2 photos; no horizontal overflow |
+| 19 | Type safety and build | `tsc --noEmit` and `vite build` | Passed |
 
 ## Not tested (needs a physical device or a deployment)
 
@@ -38,6 +40,8 @@ What was actually tested before delivery, how, and what could not be tested.
 | Xiaomi C200 | No device available; no verified local stream | See README, "Cameras" |
 | Firefox and Safari on desktop | Only Chrome was run | Open the deployed site in each |
 | Offline use after first load | No service worker is included; it relies on the browser cache | Load once, go offline, reload |
+
+| Teach it with real phone photos of physical items | Measured only on digitally altered pictures | Tag 10 items with 2-3 photos each, rescan each from a new angle, record in the Experiment tab |
 
 ## Known issues
 

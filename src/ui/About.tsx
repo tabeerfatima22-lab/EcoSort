@@ -28,10 +28,22 @@ export function About({ engine }: { engine: Engine | null }) {
       <h2>When it recommends a bin</h2>
       <ul>
         <li>The picture is analysed four ways (whole, mirrored, and two closer crops). All four must point to the same bin.</li>
-        <li>The averaged probability for that bin must be at least 95% in Strict mode (80% in Balanced mode).</li>
+        <li>The averaged probability for that bin must be at least 80% in Balanced mode (the default) or 95% in Strict mode.</li>
         <li>The object model must not contradict the material or flag an item the four bins are not meant for.</li>
         <li>If any check fails, the answer is Uncertain. A camera cannot see food residue reliably, so the app asks you whether the item is clean.</li>
       </ul>
+
+      <h2>Teaching it your own items</h2>
+      <p>
+        After any scan you can press <b>Tell EcoSort what this is</b> and choose the bin. The app stores the picture's features (1,280 numbers from
+        the object model) and compares later scans with them. When a scan is at least 82% similar to a tagged photo, your bin is used. No model is
+        retrained and nothing is uploaded.
+      </p>
+      <p>
+        Measured on altered copies of 198 test pictures, a re-photographed item was found {p(measured.teach?.sameItemFound)} of the time, never
+        matched to a different item, and a never-tagged item was wrongly matched {p(measured.teach?.falseMatch)} of the time. It recognises the
+        same or a very similar item; it does not learn a whole category from one example.
+      </p>
 
       <h2>Measured results</h2>
       <p>

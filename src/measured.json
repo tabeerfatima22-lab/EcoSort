@@ -128,5 +128,11 @@
       "outOfScopeToRecycling": 0.10138248847926268,
       "meanMs": 259.19376973142863
     }
-  ]
+  ],
+  "teach": {
+    "threshold": 0.82,
+    "sameItemFound": 0.9612794612794613,
+    "wrongItem": 0,
+    "falseMatch": 0.013468013468013467
+  }
 }

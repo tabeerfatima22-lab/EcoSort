@@ -5,11 +5,14 @@
  */
 import type { DecisionSettings } from "./config";
 import { decide, type Decision } from "./decision";
+import { findMatch, type TaughtItem } from "./memory";
 import type { ObjectModel, WasteModel } from "./models";
 import { centreCrop, centreSquare, flipHorizontal, imageQuality, type CropRect, type RgbaImage } from "./resize";
 
 export interface Analysis {
   decision: Decision;
+  /** Object-model features of this picture, used to tag it (Teach it). */
+  features: number[] | null;
   inferenceMs: number;
   brightness: number;
   sharpness: number;
@@ -25,7 +28,7 @@ const now = () => (typeof performance !== "undefined" ? performance.now() : Date
 /**
  * @param region the part of the picture to analyse (the camera's square viewfinder, or the whole upload)
  */
-export async function analyse(image: RgbaImage, region: CropRect, models: Models, settings: DecisionSettings): Promise<Analysis> {
+export async function analyse(image: RgbaImage, region: CropRect, models: Models, settings: DecisionSettings, taught: TaughtItem[] = []): Promise<Analysis> {
   const start = now();
   const inner = (f: number): CropRect => {
     const c = centreCrop(region.width, region.height, f);
@@ -37,13 +40,28 @@ export async function analyse(image: RgbaImage, region: CropRect, models: Models
   for (const view of views) wasteProbs.push(await models.waste.predict(view));
 
   const sq = centreSquare(region.width, region.height, 0.875);
-  const objectProbs = await models.object.predict(
+  const object = await models.object.run(
     models.object.prepare(image, { x: region.x + sq.x, y: region.y + sq.y, width: sq.width, height: sq.height }),
   );
 
-  const decision = decide(wasteProbs, objectProbs, settings);
+  let decision = decide(wasteProbs, object.probs, settings);
+  // A confident match with an item the user tagged overrides the models.
+  if (object.features && taught.length) {
+    const { match } = findMatch(object.features, taught);
+    if (match) {
+      decision = {
+        ...decision,
+        status: "recommend",
+        source: "taught",
+        reason: undefined,
+        detail: undefined,
+        bin: match.item.bin,
+        taught: { id: match.item.id, name: match.item.name, similarity: match.similarity, note: match.item.note },
+      };
+    }
+  }
   const quality = imageQuality(whole, 224, 224);
-  return { decision, inferenceMs: now() - start, ...quality };
+  return { decision, features: object.features ? Array.from(object.features) : null, inferenceMs: now() - start, ...quality };
 }
 
 /** Lightweight single-view pass used only to drive the live preview in continuous mode. */
