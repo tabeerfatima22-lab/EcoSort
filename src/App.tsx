@@ -5,6 +5,7 @@ import type { BinId } from "./core/bins";
 import { normalise, type TaughtItem } from "./core/memory";
 import { exportTaught, importTaught, newId, readTaught, writeTaught } from "./app/memoryStore";
 import { MyItems, TeachSheet } from "./ui/Teach";
+import { applyRemote, hasPending, isConnected, pull, readGitHubConfig, setPending, union, writeGitHubConfig, type GitHubConfig } from "./app/githubSync";
 import { toBinProbabilities, topBin } from "./core/decision";
 import { analyse, quickLook, type Analysis } from "./core/pipeline";
 import type { RgbaImage } from "./core/resize";
@@ -64,6 +65,13 @@ export function App() {
   const [teaching, setTeaching] = useState(false);
   const [thumb, setThumb] = useState<string | null>(null);
   const [itemsMessage, setItemsMessage] = useState<string | null>(null);
+  const [github, setGithub] = useState<GitHubConfig>(readGitHubConfig);
+  const [githubStatus, setGithubStatus] = useState<{ state: "off" | "syncing" | "ok" | "error"; text: string }>(() =>
+    isConnected(readGitHubConfig()) ? { state: "syncing", text: "Checking GitHub..." } : { state: "off", text: "Not connected. Items are saved in this browser only." },
+  );
+  const taughtRef = useRef(taught);
+  taughtRef.current = taught;
+  const githubQueue = useRef<Promise<unknown>>(Promise.resolve());
 
   const videoRef = useRef<HTMLVideoElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -243,16 +251,101 @@ export function App() {
     };
   }, [settings.continuous, settings.mode, engine, camera, phase, view, run, sharpestFrame]);
 
-  const updateTaught = (next: TaughtItem[], ok: string) => {
-    const problem = writeTaught(next);
+  /** Runs GitHub work one step at a time, so two quick saves cannot overwrite each other. */
+  const queueGitHub = useCallback(<T,>(job: () => Promise<T>): Promise<T> => {
+    const run = githubQueue.current.then(job, job);
+    githubQueue.current = run.catch(() => undefined);
+    return run;
+  }, []);
+
+  const keepLocal = (items: TaughtItem[]) => {
+    const problem = writeTaught(items);
+    if (!problem) setTaught(items);
+    return problem;
+  };
+
+  /** Brings this browser and GitHub together. Changes made here that never reached GitHub are added to it first. */
+  const syncGitHub = useCallback(
+    (config: GitHubConfig) =>
+      queueGitHub(async () => {
+        if (!isConnected(config)) return;
+        setGithubStatus({ state: "syncing", text: "Checking GitHub..." });
+        try {
+          let items: TaughtItem[];
+          if (hasPending()) {
+            items = await applyRemote(config, (remote) => union(remote, taughtRef.current), "EcoSort: add items saved on this device");
+            setPending(false);
+          } else {
+            items = (await pull(config)).items;
+          }
+          const problem = keepLocal(items);
+          setGithubStatus(
+            problem
+              ? { state: "error", text: problem }
+              : { state: "ok", text: `Up to date with GitHub (${items.length} item${items.length === 1 ? "" : "s"}).` },
+          );
+        } catch (e) {
+          setGithubStatus({ state: "error", text: (e as Error).message });
+        }
+      }),
+    [queueGitHub],
+  );
+
+  useEffect(() => {
+    void syncGitHub(readGitHubConfig());
+  }, [syncGitHub]);
+
+  const connectGitHub = (config: GitHubConfig) => {
+    writeGitHubConfig(config);
+    setGithub(config);
+    if (!isConnected(config)) {
+      setGithubStatus({ state: "off", text: "Not connected. Items are saved in this browser only." });
+      return;
+    }
+    if (taughtRef.current.length) setPending(true); // send what is already on this phone
+    void syncGitHub(config);
+  };
+
+  const disconnectGitHub = () => connectGitHub({ ...github, token: "" });
+
+  /**
+   * Applies a change to the items. It is saved in this browser at once, then (when
+   * connected) applied to the latest copy on GitHub so other phones get it too.
+   */
+  const updateTaught = (change: (items: TaughtItem[]) => TaughtItem[], ok: string, commit: string) => {
+    const problem = writeTaught(change(taught));
     if (problem) {
       setMessage(problem);
       setItemsMessage(problem);
       return false;
     }
-    setTaught(next);
-    setMessage(ok);
-    setItemsMessage(ok);
+    setTaught(change(taught));
+    if (!isConnected(github)) {
+      setMessage(ok);
+      setItemsMessage(ok);
+      return true;
+    }
+    setMessage(`${ok} Saving to GitHub...`);
+    setItemsMessage(`${ok} Saving to GitHub...`);
+    setGithubStatus({ state: "syncing", text: "Saving to GitHub..." });
+    const config = github;
+    void queueGitHub(async () => {
+      try {
+        const items = await applyRemote(config, change, commit);
+        setPending(false);
+        keepLocal(items);
+        const done = `${ok} Saved to GitHub.`;
+        setMessage((m) => (m === `${ok} Saving to GitHub...` ? done : m));
+        setItemsMessage(done);
+        setGithubStatus({ state: "ok", text: `Up to date with GitHub (${items.length} item${items.length === 1 ? "" : "s"}).` });
+      } catch (e) {
+        setPending(true);
+        const failed = `${ok} Saved on this device, but NOT on GitHub: ${(e as Error).message} It will be sent next time EcoSort connects.`;
+        setMessage(failed);
+        setItemsMessage(failed);
+        setGithubStatus({ state: "error", text: (e as Error).message });
+      }
+    });
     return true;
   };
 
@@ -263,17 +356,26 @@ export function App() {
       return;
     }
     const example = { id: newId(), features: normalise(analysis.features), thumb, addedAt: new Date().toISOString() };
-    let next: TaughtItem[];
+    let change: (items: TaughtItem[]) => TaughtItem[];
     let ok: string;
+    let commit: string;
     if ("itemId" in target) {
-      next = taught.map((i) => (i.id === target.itemId ? { ...i, examples: [...i.examples, example] } : i));
+      // If the item was removed on another phone, it is put back with this photo.
+      const base = taught.find((i) => i.id === target.itemId)!;
+      change = (items) =>
+        items.some((i) => i.id === target.itemId)
+          ? items.map((i) => (i.id === target.itemId ? { ...i, examples: [...i.examples, example] } : i))
+          : [...items, { ...base, examples: [...base.examples, example] }];
       const it = taught.find((i) => i.id === target.itemId)!;
       ok = `Added a photo to "${it.name}". It now has ${it.examples.length + 1} photos.`;
+      commit = `EcoSort: add a photo to "${it.name}"`;
     } else {
-      next = [...taught, { id: newId(), name: target.name, bin: target.bin, note: target.note, examples: [example] }];
+      const item: TaughtItem = { id: newId(), name: target.name, bin: target.bin, note: target.note, examples: [example] };
+      change = (items) => [...items, item];
+      commit = `EcoSort: save "${target.name}"`;
       ok = `Saved "${target.name}". Scan it from another side and add that photo too.`;
     }
-    if (updateTaught(next, ok)) setTeaching(false);
+    if (updateTaught(change, ok, commit)) setTeaching(false);
   };
 
   const saveRecord = (item: string, truth: LogEntry["truth"]) => {
@@ -448,17 +550,30 @@ export function App() {
         <MyItems
           items={taught}
           message={itemsMessage}
-          onRemoveItem={(id) => updateTaught(taught.filter((i) => i.id !== id), "Item removed.")}
-          onRemovePhoto={(itemId, photoId) =>
+          github={github}
+          githubStatus={githubStatus}
+          onConnectGitHub={connectGitHub}
+          onDisconnectGitHub={disconnectGitHub}
+          onSyncGitHub={() => void syncGitHub(github)}
+          onRemoveItem={(id) => {
+            const name = taught.find((i) => i.id === id)?.name ?? "item";
+            updateTaught((items) => items.filter((i) => i.id !== id), "Item removed.", `EcoSort: remove "${name}"`);
+          }}
+          onRemovePhoto={(itemId, photoId) => {
+            const name = taught.find((i) => i.id === itemId)?.name ?? "item";
             updateTaught(
-              taught.map((i) => (i.id === itemId ? { ...i, examples: i.examples.filter((e) => e.id !== photoId) } : i)).filter((i) => i.examples.length > 0),
+              (items) => items.map((i) => (i.id === itemId ? { ...i, examples: i.examples.filter((e) => e.id !== photoId) } : i)).filter((i) => i.examples.length > 0),
               "Photo removed.",
-            )
-          }
+              `EcoSort: remove a photo of "${name}"`,
+            );
+          }}
           onExport={() => exportTaught(taught)}
           onImport={(f) =>
-            importTaught(f, taught)
-              .then((next) => updateTaught(next, `Imported. You now have ${next.length} items.`))
+            importTaught(f, [])
+              .then((imported) => {
+                const count = union(taught, imported).length;
+                updateTaught((items) => union(items.filter((i) => !imported.some((n) => n.id === i.id)), imported), `Imported. You now have ${count} items.`, `EcoSort: import ${imported.length} items`);
+              })
               .catch((e: Error) => setItemsMessage(e.message))
           }
         />

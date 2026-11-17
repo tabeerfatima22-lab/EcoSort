@@ -50,3 +50,30 @@ categories.** Tag the specific items you throw away often.
 - `src/core/memory.ts` - matching rule and thresholds
 - `src/app/memoryStore.ts` - storage in this browser, export and import
 - `docs/teach/` - measurement scripts, the 198-picture list and `results.json`
+
+## Saving items to GitHub
+
+By default, tagged items are kept in the browser that tagged them. To keep them in
+the GitHub repository and share them between phones, open **My items > Save to GitHub**
+and paste a token (once on each device):
+
+1. github.com > Settings > Developer settings > Personal access tokens > **Fine-grained tokens** > Generate new token.
+2. Repository access: **Only select repositories** > `EcoSort`.
+3. Repository permissions > **Contents: Read and write**. Nothing else.
+4. Copy the token (`github_pat_...`) into the app and press **Connect**.
+
+What happens then:
+
+- Items already on the phone are added to `data/my-items.json` in the repository.
+- Every save, added photo, removal or import is applied to the latest copy of that file
+  on GitHub and committed (commit messages start with `EcoSort:`). If two phones save at
+  the same moment, the second retries on the newer copy, so neither loses an item.
+- When the app opens it loads the file from GitHub, so all connected phones show the same items.
+- If GitHub cannot be reached, the change is kept on the phone, the app says it was
+  **not** saved to GitHub, and it is sent the next time the app connects (or on **Sync now**).
+  A removal made while offline can come back in that case; remove it again once online.
+- Commits to `data/` do not rebuild the website (`paths-ignore` in `deploy.yml`).
+
+Privacy: the repository is public, so item names and their 160-pixel photos in
+`data/my-items.json` are visible to anyone. The token is stored in that browser only
+and sent only to api.github.com. Do not connect a phone other people use.

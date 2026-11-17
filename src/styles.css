@@ -166,3 +166,18 @@ nav { display: flex; gap: 4px; background: #dbe4dc; padding: 4px; border-radius:
   .top nav { width: 100%; overflow-x: auto; }
   .tab { flex: 1; padding: 7px 8px; font-size: 0.9rem; }
 }
+
+/* Save to GitHub panel (My items) */
+.github-panel { border: 1.5px solid var(--line); border-left: 6px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 12px 0; background: var(--surface); display: grid; gap: 8px; }
+.github-ok { border-left-color: #2e7d32; }
+.github-syncing { border-left-color: #f9a825; }
+.github-error { border-left-color: #c62828; }
+.github-error .github-head .fine { color: #b71c1c; font-weight: 600; }
+.github-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.github-head .item-name { margin: 0; }
+.github-head .fine { margin: 2px 0 0; }
+.github-form { display: grid; gap: 10px; }
+.github-form .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.github-form .row.actions { display: flex; }
+.github-form details ol { padding-left: 1.2em; margin: 6px 0; }
+.github-panel code { font-size: 0.85em; word-break: break-all; }

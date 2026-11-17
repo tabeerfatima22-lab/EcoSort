@@ -31,6 +31,9 @@ Two things help a lot with your own items:
 - **Teach it.** After any scan, press *Tell EcoSort what this is* and pick the bin. It
   then recognises that item next time (see [docs/TEACH.md](docs/TEACH.md)). When it is
   Uncertain it also shows its best guess.
+- **Save to GitHub (optional).** On *My items*, paste a fine-grained GitHub token once per
+  device and every saved item is committed to `data/my-items.json` in the repository and
+  shared between phones (see [docs/TEACH.md](docs/TEACH.md#saving-items-to-github)).
 
 In practice this means:
 

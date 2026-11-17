@@ -4,6 +4,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    # Items saved from the app (data/my-items.json) do not need a site rebuild.
+    paths-ignore:
+      - "data/**"
   workflow_dispatch:
 
 permissions:
