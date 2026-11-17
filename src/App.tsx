@@ -5,7 +5,7 @@ import type { BinId } from "./core/bins";
 import { normalise, type TaughtItem } from "./core/memory";
 import { exportTaught, importTaught, newId, readTaught, writeTaught } from "./app/memoryStore";
 import { MyItems, TeachSheet } from "./ui/Teach";
-import { applyRemote, hasPending, isConnected, pull, readGitHubConfig, setPending, union, writeGitHubConfig, type GitHubConfig } from "./app/githubSync";
+import { applyRemote, hasPending, isConnected, pull, readConnectLink, readGitHubConfig, setPending, union, writeGitHubConfig, type GitHubConfig } from "./app/githubSync";
 import { toBinProbabilities, topBin } from "./core/decision";
 import { analyse, quickLook, type Analysis } from "./core/pipeline";
 import type { RgbaImage } from "./core/resize";
@@ -307,6 +307,24 @@ export function App() {
   };
 
   const disconnectGitHub = () => connectGitHub({ ...github, token: "" });
+
+  /* Opening a connect link (from "Send link" or the QR code) connects this phone in one step. */
+  const linkHandled = useRef(false);
+  useEffect(() => {
+    if (linkHandled.current) return;
+    linkHandled.current = true;
+    const fromLink = readConnectLink(location.hash);
+    if (!location.hash.includes("connect=")) return;
+    history.replaceState(null, "", location.pathname + location.search); // do not leave the key in the address bar
+    if (!fromLink) {
+      setMessage("That connect link is incomplete. Ask for it again, or scan the QR code.");
+      return;
+    }
+    connectGitHub(fromLink);
+    setMessage("This phone is now connected. Items you save here are shared through GitHub.");
+    setItemsMessage("This phone is now connected. Items you save here are shared through GitHub.");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   /**
    * Applies a change to the items. It is saved in this browser at once, then (when

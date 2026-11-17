@@ -167,3 +167,59 @@ export function union(a: TaughtItem[], b: TaughtItem[]): TaughtItem[] {
   }
   return [...byId.values()];
 }
+
+/* ---------- Easy setup: pre-filled key page and a connect link for other phones ---------- */
+
+/**
+ * Opens GitHub's "new fine-grained token" page with the name, expiry and
+ * permission (Contents: read and write) already filled in. GitHub cannot
+ * pre-select the repository, so the owner still picks EcoSort there.
+ */
+export function tokenCreateUrl(c: GitHubConfig): string {
+  const q = new URLSearchParams({
+    name: "EcoSort app",
+    description: `Lets the EcoSort app save tagged items to ${c.owner}/${c.repo}.`,
+    target_name: c.owner,
+    expires_in: "366",
+    contents: "write",
+  });
+  return `https://github.com/settings/personal-access-tokens/new?${q.toString()}`;
+}
+
+const LINK_KEY = "connect";
+
+function b64url(text: string): string {
+  return toBase64(text).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+/**
+ * A link that connects another phone in one tap. The key travels after "#",
+ * which browsers never send to the web server; treat the link like a password.
+ */
+export function makeConnectLink(c: GitHubConfig, base = `${location.origin}${location.pathname}`): string {
+  const payload = { t: c.token.trim(), o: c.owner.trim(), r: c.repo.trim(), b: c.branch.trim(), p: c.path.trim() };
+  return `${base}#${LINK_KEY}=${b64url(JSON.stringify(payload))}`;
+}
+
+/** Reads a connect link from the address bar hash, or returns null. */
+export function readConnectLink(hash: string): GitHubConfig | null {
+  const m = hash.match(new RegExp(`[#&]${LINK_KEY}=([A-Za-z0-9_-]+)`));
+  if (!m) return null;
+  try {
+    const raw = JSON.parse(fromBase64(m[1].replace(/-/g, "+").replace(/_/g, "/"))) as Record<string, string>;
+    if (!raw.t || !raw.o || !raw.r) return null;
+    return { owner: raw.o, repo: raw.r, branch: raw.b || DEFAULT_GITHUB.branch, path: raw.p || DEFAULT_GITHUB.path, token: raw.t };
+  } catch {
+    return null;
+  }
+}
+
+/** Checks a key by reading the items file; returns null when it works, otherwise the problem. */
+export async function testConnection(c: GitHubConfig): Promise<string | null> {
+  try {
+    await pull(c);
+    return null;
+  } catch (e) {
+    return (e as Error).message;
+  }
+}

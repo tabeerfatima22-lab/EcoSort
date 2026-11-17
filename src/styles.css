@@ -181,3 +181,12 @@ nav { display: flex; gap: 4px; background: #dbe4dc; padding: 4px; border-radius:
 .github-form .row.actions { display: flex; }
 .github-form details ol { padding-left: 1.2em; margin: 6px 0; }
 .github-panel code { font-size: 0.85em; word-break: break-all; }
+.github-share { display: grid; gap: 8px; border-top: 1px solid var(--line); padding-top: 10px; }
+.github-share .item-name, .github-panel > .item-name { margin: 0; }
+.github-panel .warn { color: #8a4b00; }
+.github-panel .steps { padding-left: 1.3em; display: grid; gap: 12px; margin: 10px 0; }
+.github-panel .steps li { display: grid; gap: 8px; }
+.github-panel a.btn { text-decoration: none; text-align: center; display: inline-flex; align-items: center; justify-content: center; }
+.github-panel summary { cursor: pointer; padding: 6px 0; }
+.qr { justify-self: center; background: #fff; padding: 8px; border-radius: 10px; max-width: 100%; height: auto; }
+.github-panel a.btn-primary, .github-panel a.btn-primary:visited { color: #fff; }

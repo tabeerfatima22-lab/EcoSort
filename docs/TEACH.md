@@ -51,16 +51,29 @@ categories.** Tag the specific items you throw away often.
 - `src/app/memoryStore.ts` - storage in this browser, export and import
 - `docs/teach/` - measurement scripts, the 198-picture list and `results.json`
 
-## Saving items to GitHub
+## Saving items to GitHub (shared list)
 
-By default, tagged items are kept in the browser that tagged them. To keep them in
-the GitHub repository and share them between phones, open **My items > Save to GitHub**
-and paste a token (once on each device):
+By default, tagged items are kept in the browser that tagged them. To keep them on
+GitHub and share them between phones, **one person sets it up once**; everyone else
+just opens a link.
 
-1. github.com > Settings > Developer settings > Personal access tokens > **Fine-grained tokens** > Generate new token.
-2. Repository access: **Only select repositories** > `EcoSort`.
-3. Repository permissions > **Contents: Read and write**. Nothing else.
-4. Copy the token (`github_pat_...`) into the app and press **Connect**.
+**First time (owner of the GitHub repository, about 2 minutes):**
+
+1. In the app open **My items > Setting it up for the first time > Open GitHub key page**.
+   GitHub opens with the key's name, one-year expiry and permission (Contents: read and
+   write) already filled in.
+2. The one thing GitHub cannot pre-fill: under **Repository access** pick
+   **Only select repositories** > `EcoSort`.
+3. Press **Generate token**, copy the key, paste it into the app and press **Connect**.
+   The app checks the key before accepting it.
+
+**Every other phone (no GitHub account needed):** on the connected phone press
+**Send link** (WhatsApp, text, email) or **Show QR code**. The other person opens the
+link or scans the code with their camera, and that phone is connected. The key is in
+the part of the link after `#`, which browsers do not send to the website, and it is
+removed from the address bar as soon as the app opens. Treat the link like a password:
+anyone with it can add and remove items in the list. To cut everyone off, delete the
+"EcoSort app" key on GitHub (Settings > Developer settings > Fine-grained tokens).
 
 What happens then:
 
